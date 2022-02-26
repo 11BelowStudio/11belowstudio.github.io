@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# I suppose this is a landing page
+# Welcome To Disappointment Central
 
 Hello there!
 
