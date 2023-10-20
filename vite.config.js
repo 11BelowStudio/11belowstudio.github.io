@@ -1,7 +1,7 @@
 
 import { defineConfig, loadEnv } from 'vite';
 import vue from '@vitejs/plugin-vue';
-//import vue from "@vitejs/plugin-vue2";
+import { fileURLToPath, URL } from "url";
 
 const path = require("path");
 
@@ -14,24 +14,22 @@ export default ({mode}) => {
 
   return defineConfig({
     plugins: [
-      vue({
-        
-        template: {
-          compilerOptions: {
-            compatConfig: {
-              MODE: 3
-            }
-          }
-        }
-        
-      })
+      vue()
     ],
     resolve: {
-      alias: {
-        "@": path.resolve(__dirname, "./src"),
-        vue: '@vue/compat',
-        
-      },
+      alias: [
+        // thanks to https://stackoverflow.com/a/67676242/22296059 :)
+        { find: "@", replacement: fileURLToPath(new URL('./src', import.meta.url)) },
+      ],
     },
+    css: {
+      preprocessorOptions: {
+        less: {
+          math: "always",
+          relativeUrls: true,
+          javascriptEnabled: true
+        }
+      }
+    }
   })
 } 

@@ -2,12 +2,6 @@ import { createApp, configureCompat, h } from 'vue';
 import App from './App.vue'
 import { createRouter } from './router'
 
-// Vue.config.productionTip = false
-
-configureCompat({
-  MODE: 3
-})
-
 const router = createRouter();
 
 const app = createApp(App);
