@@ -1,8 +1,5 @@
 <template>
   <div id="app">
-    <!--
-    <link rel="stylesheet" href="/projects.css" type="text/css">
-    -->
     <Header />
     <div class="main">
       <router-view v-slot="{ Component }">
