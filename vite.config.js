@@ -1,7 +1,7 @@
 
-import { defineConfig, loadEnv } from 'vite'
-//import vue from '@vitejs/plugin-vue'
-import vue from "@vitejs/plugin-vue2";
+import { defineConfig, loadEnv } from 'vite';
+import vue from '@vitejs/plugin-vue';
+//import vue from "@vitejs/plugin-vue2";
 
 const path = require("path");
 
@@ -13,10 +13,24 @@ export default ({mode}) => {
   };
 
   return defineConfig({
-    plugins: [vue()],
+    plugins: [
+      vue({
+        
+        template: {
+          compilerOptions: {
+            compatConfig: {
+              MODE: 3
+            }
+          }
+        }
+        
+      })
+    ],
     resolve: {
       alias: {
         "@": path.resolve(__dirname, "./src"),
+        vue: '@vue/compat',
+        
       },
     },
   })

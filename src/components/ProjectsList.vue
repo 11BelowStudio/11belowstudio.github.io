@@ -1,9 +1,9 @@
 <template>
     <div>
       <div class="projects-list">
-        <template v-for="project in projects">
+        <template v-for="project in projects" :key="project.id"
+       :project="project">
           <div
-            :key="project.id"
               @click="showDetails(project)"
               class="project-item"
               :class="{ 'wide': project.isWide, 'high': project.isHigh }">
@@ -29,11 +29,11 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
+import { defineComponent } from "vue";
 import ProjectDetailsOverlay from "@/components/ProjectDetailsOverlay.vue";
 import ProjectData from "@/data/ProjectData";
 
-export default Vue.extend({
+export default defineComponent({
   name: "ProjectsList",
   components: {
     ProjectDetailsOverlay,
