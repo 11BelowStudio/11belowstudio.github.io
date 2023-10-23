@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header />
+    <HeaderComp />
     <div class="main">
       <router-view v-slot="{ Component }">
         <transition>
@@ -8,20 +8,20 @@
         </transition>
       </router-view>
     </div>
-    <Footer />
+    <FooterComp />
   </div>
 </template>
 
 <script lang="ts">
 import { defineComponent } from 'vue';
-import Header from './components/Header.vue';
-import Footer from './components/Footer.vue';
+import HeaderComp from './components/HeaderComp.vue';
+import FooterComp from './components/FooterComp.vue';
 import Helpers from './helpers';
 
 export default defineComponent({
   name: 'App',
   components: {
-    Header, Footer
+    HeaderComp, FooterComp
   }
 });
 

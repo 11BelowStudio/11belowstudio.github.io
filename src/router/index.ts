@@ -1,12 +1,12 @@
 import { createRouter as _createRouter, createWebHistory } from 'vue-router'
 
 // route-level code splitting
-const AboutView = () => import('../views/About.vue');
-const ResumeView = () => import('../views/Resume.vue')
+const AboutView = () => import('../views/AboutPage.vue');
+const ResumeView = () => import('../views/ResumePage.vue')
 const GameView = () => import('../views/GameProjects.vue')
 const OtherView = () => import('../views/OtherProjects.vue')
-const ContactView = () => import('../views/Contact.vue')
-const E404View = () => import('../views/404.vue')
+const ContactView = () => import('../views/ContactPage.vue')
+const E404View = () => import('../views/404Page.vue')
 
 export function createRouter(){
   return _createRouter({

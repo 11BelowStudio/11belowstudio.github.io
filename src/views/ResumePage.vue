@@ -111,7 +111,7 @@ import SkillRate from "@/components/SkillRate.vue";
 
 
 export default defineComponent({
-  name: "Resume",
+  name: "ResumePage",
   components: {
     SkillRate,
   },
