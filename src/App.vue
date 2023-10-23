@@ -80,8 +80,8 @@ h1 {
 }
 
 .main {
-    padding: 12px;
-  }
+  padding: 12px;
+}
 
 @media only screen and (min-width: 620px){
 

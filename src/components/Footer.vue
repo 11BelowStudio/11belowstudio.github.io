@@ -29,9 +29,9 @@ export default defineComponent({
 }
 
 .left, .right {
-    padding-top: 10px;
-    text-align: center;
-  }
+  padding-top: 10px;
+  text-align: center;
+}
 
 @media only screen and (min-width: 620px){
 

@@ -63,10 +63,10 @@ iframe {
 }
 
 h1.dialog-title {
-    text-align: center;
-    font-size: 1.3em;
-    margin: 0px;
-    padding: 22px;
+  text-align: center;
+  font-size: 1.3em;
+  margin: 0px;
+  padding: 22px;
 }
 
 .dialog-content {
