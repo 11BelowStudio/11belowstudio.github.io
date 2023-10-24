@@ -129,7 +129,7 @@
         <div class="skill">C#</div>
       </div>
 
-      <!--
+      <!-- template placeholder moment
       <div class="skill-set">
         <h3>Lethal</h3>
         <SkillRate name="Handguns" :rate="5" />
@@ -208,7 +208,7 @@
       <h4>January 2020 - September 2022</h4>
 
       <div>
-        
+
       </div>
 
       <h3>Treasurer - University of Essex Game Development Society</h3>
@@ -220,6 +220,7 @@
 
       <h2 id="Other">And another thing...</h2>
 
+      <!-- template placeholder moment
       <h2>Languages</h2>
 
       <h3>American</h3>
@@ -227,7 +228,7 @@
 
       <h3>That's it</h3>
       <div>Who needs another language when you speak American?</div>
-
+      -->
 
       <h2>Besides...</h2>
       <div>
