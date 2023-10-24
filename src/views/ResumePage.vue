@@ -40,8 +40,8 @@
           edutainment/digital archaeology-oriented experience, for the Isle of Man Museum - under
           the title of <i>CrabFind</i>.
           This game was successfully demonstrated at the Isle of Man Festival of the Sea,
-          to positive feedback (see <a href="https://twitter.com/manxnature/status/1683552915808563200">[1]</a>
-            <a href="https://twitter.com/MorrisLeigh/status/1679987276678397956">[2]</a>).
+          to positive feedback (see <a href="https://twitter.com/manxnature/status/1683552915808563200" target="_blank">[1]</a>
+            <a href="https://twitter.com/MorrisLeigh/status/1679987276678397956" target="_blank">[2]</a>).
         </p>
         <p>
           - Cross-platform multiplayer game development (PC & Android).<br/>
@@ -60,10 +60,10 @@
           Employed to continue working on <i>CrabFight</i> (the game I made for my MSc dissertation)
           for use by Natural England.
           The game, now rebranded as <i>CLAWS</i>, has successfully been demonstrated at
-          several public events (see <a href="https://twitter.com/NENorfolkSufflk/status/1626503567224844288">[1]</a>
-          <a href="https://www.gov.uk/government/news/lincolnshire-summer-fun-to-celebrate-kings-england-coast-path">[2]</a>
-          <a href="https://www.linkedin.com/feed/update/urn:li:activity:7076120167096672256/">[3]</a>
-          <a href="https://www.linkedin.com/feed/update/urn:li:activity:7114586412238135296/">[4]</a>).
+          several public events (see <a href="https://twitter.com/NENorfolkSufflk/status/1626503567224844288" target="_blank">[1]</a>
+          <a href="https://www.gov.uk/government/news/lincolnshire-summer-fun-to-celebrate-kings-england-coast-path" target="_blank">[2]</a>
+          <a href="https://www.linkedin.com/feed/update/urn:li:activity:7076120167096672256/" target="_blank">[3]</a>
+          <a href="https://www.linkedin.com/feed/update/urn:li:activity:7114586412238135296/" target="_blank">[4]</a>).
         </p>
         <p>
           - Cross-platform multiplayer game development (PC & Android).<br/>
