@@ -20,12 +20,63 @@
       </div>
     </div>
     <div class="photo">
-      <img :src="`/img/resume-photo.png`" alt="Photo of John" />
+      <img :src="`/img/resume-photo.png`" alt="Rachel" />
     </div>
 
     <div style="clear:both"></div>
 
+    <div><a href="#Work">Work experience</a> * <a href="#Skills">Skills</a> * <a href="#Education">Education</a> * <a href="#Volunteering">Volunteering</a> * <a href="#Other">Other things</a></div>
+
     <div class="full-content">
+
+      <h2 id="Work">Work experience</h2>
+
+      <h3>Research Officer (Contract) - University of Essex<small><br><i>(Graduate game developer)</i></small></h3>
+      <h4>June 2023 - July 2023</h4>
+
+      <div>
+        <p>
+          Employed to design and implement a variant of <i>CrabFight</i>, focused towards more of an
+          edutainment/digital archaeology-oriented experience, for the Isle of Man Museum - under
+          the title of <i>CrabFind</i>.
+          This game was successfully demonstrated at the Isle of Man Festival of the Sea,
+          to positive feedback (see <a href="https://twitter.com/manxnature/status/1683552915808563200">[1]</a>
+            <a href="https://twitter.com/MorrisLeigh/status/1679987276678397956">[2]</a>).
+        </p>
+        <p>
+          - Cross-platform multiplayer game development (PC & Android).<br/>
+          - Designing a game from the ground up explicitly for use at events, whilst satisfying other stakeholder requirements.<br/>
+          - Successful implementation of the game within a very limited timeframe.
+        </p>
+      </div>
+
+      <div class="tech-stack">Unity, C#, git, Blender, stakeholder interaction, multiplatform game development, multiplayer game development, project management</div>
+
+      <h3>Research Officer (Contract) - University of Essex<small><br><i>(Graduate game developer)</i></small></h3>
+      <h4>March 2023 - April 2023</h4>
+
+      <div>
+        <p>
+          Employed to continue working on <i>CrabFight</i> (the game I made for my MSc dissertation)
+          for use by Natural England.
+          The game, now rebranded as <i>CLAWS</i>, has successfully been demonstrated at
+          several public events (see <a href="https://twitter.com/NENorfolkSufflk/status/1626503567224844288">[1]</a>
+          <a href="https://www.gov.uk/government/news/lincolnshire-summer-fun-to-celebrate-kings-england-coast-path">[2]</a>
+          <a href="https://www.linkedin.com/feed/update/urn:li:activity:7076120167096672256/">[3]</a>
+          <a href="https://www.linkedin.com/feed/update/urn:li:activity:7114586412238135296/">[4]</a>).
+        </p>
+        <p>
+          - Cross-platform multiplayer game development (PC & Android).<br/>
+          - Autonomous working environment; handling project management, game design, and implementation by myself.<br/>
+          - Active stakeholder engagement, ensuring that the deliverable met requirements.<br/>
+          - Post-launch updates in response to guest feedback after events.<br/>
+          - Successfully produced handover documentation, enabling stakeholders to use the game at events by themselves.
+        </p>
+      </div>
+
+      <div class="tech-stack">Unity, C#, git, stakeholder interaction, multiplatform game development, multiplayer game development, project management</div>
+
+      <!--
       <h2>Work experience</h2>
 
       <h3>Operation Classified - Delta Force</h3>
@@ -48,9 +99,37 @@
       <div>It's classified so I can't speak about it.</div>
 
       <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      -->
 
-      <h2>Skills</h2>
+      <h2 id="Skills">Skills</h2>
 
+      <div class="skill-set">
+        <h3>Languages</h3>
+        <div class="skill">C#</div>
+        <div class="skill">Java</div>
+      </div>
+
+      <div class="skill-set">
+        <h3>Game Development</h3>
+        <div class="skill">Unity</div>
+        <div class="skill">Audacity</div>
+        <div class="skill">Blender</div>
+      </div>
+
+      <div class="skill-set">
+        <h3>Tools</h3>
+        <div class="skill">Git</div>
+        <div class="skill">Visual Studio</div>
+        <div class="skill">VS Code</div>
+        <div class="skill">JetBrains IDEs</div>
+      </div>
+
+      <div class="skill-set">
+        <h3>Others</h3>
+        <div class="skill">C#</div>
+      </div>
+
+      <!--
       <div class="skill-set">
         <h3>Lethal</h3>
         <SkillRate name="Handguns" :rate="5" />
@@ -69,13 +148,77 @@
         <SkillRate name="Seduction" :rate="1" />
         <SkillRate name="Sense of humor" :rate="2" />
       </div>
-      <div style="clear:both" />
+      -->
 
-      <h2>Education</h2>
+      <div style="clear:both"> </div>
 
-      <h3>Kindergarten - 1985</h3>
-      <h4>Kindergarten degree</h4>
-      <div>Specialty in bullying and fighting (58 wins, 58 K-O, 0 losses)</div>
+      <h2 id="Education">Education</h2>
+
+      <h3>University of Essex - MSc Computer Games</h3>
+      <h4>2021 - 2022</h4>
+      <div>
+        <p>
+          Overall result: 84%. <b>Distinction.</b>
+        </p>
+        <div class="tech-stack">Game Artificial Intelligence (92%),
+          Physics-Based Games (96%),
+          Game Design (85%),
+          Group Project (Incorporating a Game Jam) (81%),
+          Mobile and Social Application Programming (76%),
+          Professional Practice and Research Methodology (84%),
+          Machine Learning (93%),
+          Data Science and Decision Making (76%),
+          MSc Project and Dissertation (82%).</div>
+      </div>
+
+      <h3>University of Essex - BSc Computer Games</h3>
+      <h4>2018-2021</h4>
+      <div>
+        <p>
+          Overall result: 89%. <b>First.</b><br/>
+          - 3rd year result: 88%. Awarded the PlayLabz Prize and The British Computer Society Prize.<br/>
+          - 2nd year result: 91%. Awarded the KF Bowden Memorial Prize, included on the Dean's List.<br/>
+          - 1st year result: 87%. Awarded the O'Reilly Academic Prize, included on the Dean's List.
+        </p>
+      </div>
+
+      <h2 id="Volunteering">Volunteering</h2>
+      
+      <h3>Digital Buddy - Staines Library</h3>
+      <h4>January 2023 - present</h4>
+      <div>
+        <p>
+          I provide weekly drop-in support sessions at my local library,
+          helping people who are in need of assistance with computers to do
+          whatever it is they're trying to do. This ranges from simple tasks
+          (such as scanning/printing documents or browsing the internet) to
+          some more complex tasks (such as navigating kafkaesque online bureaucracy,
+          or recovering logins to seldom-used emails), and the occasional
+          completely unexpected curveball.<br/>
+          When solving these problems, I work through the solution with
+          whoever it is I'm helping; this involvement not only ensures
+          that I'm solving the specific issue they needed solving,
+          but also teaches them how to solve the problem themselves - enhancing
+          their digital skills, improving their confidence with technology,
+          and empowering them with this knowledge.
+        </p>
+      </div>
+
+      <h3>Student Representative - University of Essex</h3>
+      <h4>January 2020 - September 2022</h4>
+
+      <div>
+        
+      </div>
+
+      <h3>Treasurer - University of Essex Game Development Society</h3>
+      <h4>November 2019 - July 2020</h4>
+
+      <div>
+
+      </div>
+
+      <h2 id="Other">And another thing...</h2>
 
       <h2>Languages</h2>
 
@@ -113,6 +256,7 @@ import SkillRate from "@/components/SkillRate.vue";
 export default defineComponent({
   name: "ResumePage",
   components: {
+    // eslint-disable-next-line vue/no-unused-components
     SkillRate,
   },
 });
@@ -157,6 +301,13 @@ h4 {
 
 .skill-set h3 {
   padding-bottom: 10px;
+}
+
+.skill {
+	float: left;
+	border: 1px solid hsla(0,0%,86.3%,.44);
+	padding: 2px 10px;
+	margin: 5px;
 }
 
 .photo img {
