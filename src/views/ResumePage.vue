@@ -1,8 +1,9 @@
 <template>
   <div>
-    <h1>Resume</h1>
+    <h1>Résumé</h1>
 
     <div class="paragraph">
+
       I'm <strong>John Matrix</strong>, a former Delta Force operative with lots of experience, lots of training and huge muscles.
       <br />After graduating from kindergarten, I've been enrolled in the army for 25 years, where I learned to destroy things in an amazing number of ways.
       <br />I joined the Delta Force because I thought it was Greek lessons, but I quickly adapted to this unexpected environment and became a key element.
@@ -21,6 +22,7 @@
     </div>
     <div class="photo">
       <img :src="`/img/resume-photo.png`" alt="Rachel" />
+      <p>caption caption caption</p>
     </div>
 
     <div style="clear:both"></div>
