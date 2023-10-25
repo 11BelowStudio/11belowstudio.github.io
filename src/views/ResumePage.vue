@@ -38,9 +38,9 @@
 
       <div>
         <p>
-          Employed to design and implement a variant of <i>CrabFight</i>, focused towards more of an
+          Employed to design and implement a variant of <cite>CrabFight</cite>, focused towards more of an
           edutainment/digital archaeology-oriented experience, for the Isle of Man Museum - under
-          the title of <i>CrabFind</i>.
+          the title of <cite>CrabFind</cite>.
           This game was successfully demonstrated at the Isle of Man Festival of the Sea,
           to positive feedback (see <a href="https://twitter.com/manxnature/status/1683552915808563200" target="_blank">[1]</a>
             <a href="https://twitter.com/MorrisLeigh/status/1679987276678397956" target="_blank">[2]</a>).
@@ -52,16 +52,16 @@
         </p>
       </div>
 
-      <div class="tech-stack">Unity, C#, git, Blender, stakeholder interaction, multiplatform game development, multiplayer game development, project management</div>
+      <div class="tech-stack">Unity, C#, git, blender, multiplayer, multi-platform</div>
 
       <h3>Research Officer (Contract) - University of Essex<small><br><i>(Graduate game developer)</i></small></h3>
       <h4>March 2023 - April 2023</h4>
 
       <div>
         <p>
-          Employed to continue working on <i>CrabFight</i> (the game I made for my MSc dissertation)
+          Employed to continue working on <cite>CrabFight</cite> (the game I made for my MSc dissertation)
           for use by Natural England.
-          The game, now rebranded as <i>CLAWS</i>, has successfully been demonstrated at
+          The game, now rebranded as <cite>CLAWS</cite>, has successfully been demonstrated at
           several public events (see <a href="https://twitter.com/NENorfolkSufflk/status/1626503567224844288" target="_blank">[1]</a>
           <a href="https://www.gov.uk/government/news/lincolnshire-summer-fun-to-celebrate-kings-england-coast-path" target="_blank">[2]</a>
           <a href="https://www.linkedin.com/feed/update/urn:li:activity:7076120167096672256/" target="_blank">[3]</a>
@@ -76,7 +76,7 @@
         </p>
       </div>
 
-      <div class="tech-stack">Unity, C#, git, stakeholder interaction, multiplatform game development, multiplayer game development, project management</div>
+      <div class="tech-stack">Unity, C#, git, multiplayer, multi-platform</div>
 
       <!--
       <h2>Work experience</h2>
@@ -126,10 +126,12 @@
         <div class="skill">JetBrains IDEs</div>
       </div>
 
+      <!--
       <div class="skill-set">
         <h3>Others</h3>
         <div class="skill">C#</div>
       </div>
+      -->
 
       <!-- template placeholder moment
       <div class="skill-set">
@@ -240,17 +242,28 @@
 
       
       <div>
-        <h3>I ❤️ Violence</h3>
-        <div>I find it really soothing to just shoot at bad guys</div>
+        <h3>I ❤️ Games</h3>
+        <div>I have always enjoyed playing games (and have spent a pretty large amount of time playing them).<br/>
+        Currently, I'd say my favourite games are <cite>GTFO</cite> and <cite>Deep Rock Galactic</cite> -
+        I could go into an excessive amount of detail about which games I enjoy playing, but I'll spare you the infodump.<br/>
+        I've also dabbled in creating custom maps for <cite>Counter-Strike</cite>, making mods for <cite>Payday 2</cite>,
+        making charts for <cite>Trombone Champ</cite>, and contributing to several videogame wikis.
+        </div>
 
-        <h3>I 🧡 Sports</h3>
-        <div>I used to be thin but then I ingested 10 kilos of steroids and proteins a day while doing 1000 push-ups.</div>
+        <h3>I 🧡 Games as an art form</h3>
+        <div>Yes, I know, <i>toootally</i> controversial take, but I consider games as an art form,
+        and I have a passion for designing and creating games as works of art.<br/>
+      </div>
 
         <h3>I 💛 Politics</h3>
         <div>I hope I can have a career here someday but I might have temper issues.</div>
 
         <h3>I 💚 Flowers</h3>
         <div>Especially the big ones, with the trunk and leaves.</div>
+
+        <h3>I 💙 placeholder</h3>
+
+        <h3>I 💜 placeholder</h3>
 
       </div>
     </div>
