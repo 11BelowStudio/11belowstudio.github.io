@@ -9,7 +9,7 @@
     <ProjectsList v-bind:projects="projects" />
 
     <div style="margin-top: 20px;">
-      There is more to see on <a target="_blank" href="https://someexternalwebsite.com">some external website</a>
+      I have even more games (which you can play for yourself) on <a target="_blank" href="https://11BelowStudio.itch.io">my itch.io page</a>
     </div>
   </div>
 </template>

@@ -1,8 +1,7 @@
 <template>
   <div>
     <div class="projects-list">
-      <template v-for="project in projects" :key="project.id"
-      :project="project">
+      <template v-for="project in projects" :key="project.id">
         <div
             @click="showDetails(project)"
             class="project-item"

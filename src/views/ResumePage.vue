@@ -210,14 +210,18 @@
       <h4>January 2020 - September 2022</h4>
 
       <div>
-
+         - Liasing between students and faculty, communicating concerns raised by students about the course.<br/>
+         - Identifying root causes of problems, proposing solutions to said problems.<br/>
+         - Negotiating in order to achieve the best possible resolution to situations.
       </div>
 
       <h3>Treasurer - University of Essex Game Development Society</h3>
-      <h4>November 2019 - July 2020</h4>
+      <h4>November 2019 - June 2020</h4>
 
       <div>
-
+        - Working with other society executives to plan and run society events.<br/>
+        - Responsibly managing the society budget, approving funds for events as necessary.<br/>
+        - Successfully ran a couple of society game jam events.<br/>
       </div>
 
       <h2 id="Other">And another thing...</h2>
@@ -230,9 +234,11 @@
 
       <h3>That's it</h3>
       <div>Who needs another language when you speak American?</div>
+      
+      <h2>Besides...</h2>
       -->
 
-      <h2>Besides...</h2>
+      
       <div>
         <h3>I ❤️ Violence</h3>
         <div>I find it really soothing to just shoot at bad guys</div>
