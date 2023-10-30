@@ -5,7 +5,8 @@ export default class ProjectData {
     iconUrl: string; // used as thumnail
     isWide: boolean; // thumbnail will take 2 cols in the grid view
     isHigh: boolean; // thumbnail will take 2 rows in the grid view
-    accentColor: string; // color of title bar 
+    accentColor: string; // color of title bar
+    tags: Set<string>; // tags for categorization or something
 
     /**
      * constructor for the project data
@@ -16,8 +17,13 @@ export default class ProjectData {
      * @param accentColor colour of title bar
      * @param isHigh if true, thumbnail will take 2 cols
      * @param isWide if true, thumbnail will take 2 rows
+     * @param tags list of string tags for categorization or something
      */
-    constructor(id: string, name: string, iconUrl: string, html: string, accentColor = "#000000", isHigh = false, isWide = false){
+    constructor(
+        id: string, name: string, iconUrl: string, html: string,
+        accentColor: string = "#000000", isHigh: boolean = false, isWide: boolean = false,
+        tags: string[] = []
+    ){
         this.id = id;
         this.name = name;
         this.htmlDescription = html;
@@ -25,5 +31,6 @@ export default class ProjectData {
         this.isHigh = isHigh;
         this.isWide = isWide;
         this.accentColor = accentColor;
+        this.tags = new Set(tags);
     }
 }

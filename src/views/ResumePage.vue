@@ -4,15 +4,14 @@
 
     <div class="paragraph">
 
-      I'm <strong>John Matrix</strong>, a former Delta Force operative with lots of experience, lots of training and huge muscles.
-      <br />After graduating from kindergarten, I've been enrolled in the army for 25 years, where I learned to destroy things in an amazing number of ways.
-      <br />I joined the Delta Force because I thought it was Greek lessons, but I quickly adapted to this unexpected environment and became a key element.
-      <br />I love teamwork, but I can also go in solo depending on the mission requirements.
-      <br />
-      <br />Right now I'm trying to find inner peace after I've read some personal development books. I'm looking for a monk job so if you have any opportunity feel free to 
-      <router-link to="/contact">contact me</router-link>.
-      <br />
-      <br />Besides war, I'm passionate about firearms, martial arts, explosions, push-ups and flowers.
+      I'm <strong>Rachel Lowe</strong>, a prize-winning Computer Games MSc graduate, currently looking to apply my skills and experience to the games industry.
+      <br/>I have experience developing single-player and multi-player games, for desktop and mobile, both individually and as part of a team.
+      <br/>I have recently been employed to develop bespoke videogames for Natural England and the Isle of Man Museum.
+      <br/>
+      <br/>Currently, I'm trying to find a job, either in a design role or a development role.
+      <br/>If you have any opportunities which you think I'd be a good fit for, feel free to <router-link to="/contact">contact me</router-link>.
+      <!-- <br/>
+      <br/>Besides games, I'm passionate about -->
 
       <div style="margin-top:20px; margin-bottom:20px;">
         <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
@@ -109,6 +108,8 @@
         <h3>Languages</h3>
         <div class="skill">C#</div>
         <div class="skill">Java</div>
+        <div class="skill">Python</div>
+        <div class="skill">JavaScript/TypeScript</div>
       </div>
 
       <div class="skill-set">
@@ -116,6 +117,7 @@
         <div class="skill">Unity</div>
         <div class="skill">Audacity</div>
         <div class="skill">Blender</div>
+        <div class="skill">Unity Gaming Services</div>
       </div>
 
       <div class="skill-set">
@@ -124,6 +126,7 @@
         <div class="skill">Visual Studio</div>
         <div class="skill">VS Code</div>
         <div class="skill">JetBrains IDEs</div>
+        <div class="skill">Jira</div>
       </div>
 
       <!--
@@ -163,6 +166,7 @@
       <div>
         <p>
           Overall result: 84%. <b>Distinction.</b>
+          - Awarded Big Essex Platinum Award for volunteering contributions during my degrees.
         </p>
         <div class="tech-stack">Game Artificial Intelligence (92%),
           Physics-Based Games (96%),
@@ -243,27 +247,46 @@
       
       <div>
         <h3>I ❤️ Games</h3>
-        <div>I have always enjoyed playing games (and have spent a pretty large amount of time playing them).<br/>
-        Currently, I'd say my favourite games are <cite>GTFO</cite> and <cite>Deep Rock Galactic</cite> -
-        I could go into an excessive amount of detail about which games I enjoy playing, but I'll spare you the infodump.<br/>
-        I've also dabbled in creating custom maps for <cite>Counter-Strike</cite>, making mods for <cite>Payday 2</cite>,
-        making charts for <cite>Trombone Champ</cite>, and contributing to several videogame wikis.
+        <div>
+          I have always enjoyed playing games (and have spent a pretty large amount of time playing them).<br/>
+          Currently, I'd say my favourite games are <cite>GTFO</cite> and <cite>Deep Rock Galactic</cite> -
+          I could go into an excessive amount of detail about which games I enjoy playing, but I'll spare you the infodump.<br/>
+          I've also dabbled in creating custom maps for <cite>Counter-Strike</cite>, making mods for <cite>Payday 2</cite>,
+          making charts for <cite>Trombone Champ</cite>, and contributing to several videogame wikis.
         </div>
 
         <h3>I 🧡 Games as an art form</h3>
-        <div>Yes, I know, <i>toootally</i> controversial take, but I consider games as an art form,
-        and I have a passion for designing and creating games as works of art.<br/>
-      </div>
+        <div>
+          Yes, I know, <i>toootally</i> controversial take, but I consider games as an art form,
+          and I have a passion for designing and creating games as works of art.<br/>
+          I find having a clear artistic vision for a game helps to guide the design and implementation
+          process of it - and ultimately leads to a much better, more cohesive, end result.
+        </div>
 
-        <h3>I 💛 Politics</h3>
-        <div>I hope I can have a career here someday but I might have temper issues.</div>
+        <h3>I 💛 Solving problems</h3>
+        <div>
+          I'm the sort of person who, upon noticing something that's not quite right,
+          will attempt to do something about it, rather than just letting it fester. ADHD brain go whee.<br/>
+          Most of my contributions to Wikipedia (and other videogame wikis) have been motivated by this,
+          along with most of the pull requests I've submitted to various public repos on github.<br/>
+          I find the end result of solving these problems to be rather satisfying.
+        </div>
 
-        <h3>I 💚 Flowers</h3>
-        <div>Especially the big ones, with the trunk and leaves.</div>
+        <h3>I 💚 Theme Parks</h3>
+        <div>
+          Does this have anything to do with getting into the games industry? Good question!<br/>
+          However, I've always been a fan of theme parks, visiting them, and researching how they
+          work behind the curtain to deliver the 'magic' that they do.<br/>
+          Chalk it up to being an autistic kid growing up somewhat near a couple of theme parks, I guess.<br/>
+          However, it has been a bit of an inspiration in my endeavours towards delivering interesting experiences
+          through my games.
+        </div>
 
+        <!--
         <h3>I 💙 placeholder</h3>
 
         <h3>I 💜 placeholder</h3>
+        -->
 
       </div>
     </div>
