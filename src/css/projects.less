@@ -30,6 +30,36 @@
         padding: 10px;
     }
 
+    .notice-container {
+        /* use with notice on notice divs holding text content and itch embed */
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items:center;
+        text-align:left;
+        justify-content:center;
+    }
+
+    .notice-text-square {
+        /* within notice notice-container, for div holding the text, next to the square itch.io download embed. */
+        float:left;
+        flex: 75%;
+        order: 1;
+    }
+
+    .notice-itch-square {
+        /* within notice notice-container, for div holding the square itch.io download embed. */
+        float:right;
+        flex: 25%;
+        order: 2;
+    }
+
+    @media (max-width: 800px) {
+        .notice-text-square, .notice-itch-square {
+            flex: 100%;
+        }
+    }
+
     a {
         color:#696969;
         opacity: 1;
