@@ -5,7 +5,7 @@
     <div class="paragraph">
 
       I'm <strong>Rachel Lowe</strong>, a prize-winning Computer Games MSc graduate, currently looking to apply my skills and experience to the games industry.
-      <br/>I have experience developing single-player and multi-player games, for desktop and mobile, both individually and as part of a team.
+      <br/>I have experience designing and developing single-player and multi-player games, for desktop and mobile, both individually and as part of a team.
       <br/>I have recently been employed to develop bespoke videogames for Natural England and the Isle of Man Museum.
       <br/>
       <br/>Currently, I'm trying to find a job, either in a design role or a development role.

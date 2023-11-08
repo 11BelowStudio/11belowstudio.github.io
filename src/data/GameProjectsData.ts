@@ -8,8 +8,8 @@ export default [
     "img/projects/committy.png",
     `
     <div class="paragraph">
-      <strong>Committy</strong> is a live service travesty of a card game,
-      produced for the <a href="https://itch.io/jam/sbigjam2023" target="_blank"><em>'So Bad It's Good' Jam 2023</em></a>.
+      <strong>Committy</strong> is a live service travesty of a card game, implemented using Node.js,
+      produced for the <a href="https://itch.io/jam/sbigjam2023" target="_blank"><em>'So Bad It's Good' Jam 2023</em></a> (August 2023).
       <br/>The theme for the jam this year was <cite>Every Suggestion Combined</cite>,
       so I decided to take the theme in a completely tangental direction,
       by creating a simple card game intended to be the <i>sum of everyone's suggestions</i> in card game form.
@@ -17,9 +17,17 @@ export default [
     </div>
 
     <div class="paragraph">
-      <div class="notice">
-        <cite>Committy</cite> is playable via browser, on <a href="https://committy.glitch.me" target="_blank">glitch.me</a>.
-        Source code is available on <a href="https://github.com/11BelowStudio/sbig2023-committy" target="_blank">GitHub</a>.
+      <div class="notice notice-container">
+        <div class="notice-text-square">
+          <cite>Committy</cite> is playable via browser, on <a href="https://committy.glitch.me" target="_blank">glitch.me</a>.<br/>
+          Source code is available on <a href="https://github.com/11BelowStudio/sbig2023-committy" target="_blank">GitHub</a>.<br/>
+          The jam submission page for <cite>Committy</cite> can be seen <a href="https://itch.io/jam/sbigjam2023/rate/2204456" target="_blank">here</a>.
+        </div>
+        <div class="notice-itch-square">
+          <iframe frameborder="0" src="https://itch.io/embed/2204456?linkback=true&amp;dark=true" width="100%" height="167">
+            <a href="https://11belowstudio.itch.io/committy" target="_blank">Committy! by 11BelowStudio</a>
+          </iframe>
+        </div>
       </div>
     </div>
 
@@ -89,7 +97,8 @@ export default [
         </div>
         <div class="notice-itch-square">
           <iframe frameborder="0" src="https://itch.io/embed/1626182?dark=true" width="100%" height="167">
-          <a href="https://11belowstudio.itch.io/crabfight" target="_blank">CrabFight by 11BelowStudio</a></iframe>
+          <a href="https://11belowstudio.itch.io/crabfight" target="_blank">CrabFight by 11BelowStudio</a>
+          </iframe>
         </div>
       </div>
     </div>
@@ -184,6 +193,121 @@ export default [
     false,
     false,
     ["Unity","C#","PC","mobile","multiplayer","edutainment"]
+  ),
+
+  new ProjectData(
+    "project-3",
+    "One Unspecified Period Of Time At Kevin's",
+    "img/projects/kevin-icon.png",
+    `
+    <div class="paragraph">
+      <strong>One Unspecified Period Of Time At Kevin's Contrived Plot Device Of A Tortoise Sanctuary (Very Scary!)</strong>
+      is an immersive survival horror game/fnaf clone, created in Unity, for PC.<br/>
+      This Gesamtkunstwerk was made for the <a href="https://itch.io/jam/sbigjam2022" target="_blank"><em>'So Bad It's Good' Jam 2022</em></a> (August 2022)
+      - the theme of which being <em>"Shh! The tortoise might hear!"</em> - naturally leading to the development of this masterpiece
+      in which you need to save Kevin's pet tortoise from being woken up by the other tortoises in his contrived tortoise sanctuary.
+      Somehow, <a href="https://itch.io/jam/sbigjam2022/rate/1653073" target="_blank">this entry</a> came in 9th place overall, and 1st in the 'modifier' category.
+    </div>
+
+    <div class="paragraph">
+      <div class="notice notice-container">
+        <div class="notice-text-square">
+          <cite>Kevin's</cite> is available on <a href="https://11belowstudio.itch.io/one-unspecified-period-of-time-at-kevins" target="_blank">itch.io</a>.<br/>
+          It can be played via browser on PC, or downloaded for Windows.<br/>
+          Source code is available on <a href="https://github.com/11BelowStudio/SBIG2022" target="_blank">Github</a>.
+        </div>
+        <div class="notice-itch-square">
+          <iframe frameborder="0" src="https://itch.io/embed/1653073?linkback=true&amp;bg_color=222222&amp;fg_color=eeeeee&amp;border_color=363636" width="100%" height="167">
+          <a href="https://11belowstudio.itch.io/one-unspecified-period-of-time-at-kevins" target="_blank">One Unspecified Period Of Time At Kevin's Contrived Plot Device Of A Tortoise Sanctuary (Very Scary!) by 11BelowStudio</a>
+          </iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="paragraph">
+      Main features:
+      <ul>
+        <li>Live camera feeds of totally legit tortoises in a totally sensible tortoise-shaped tortoise sanctuary for a totally realistic gameplay experience!</li>
+        <li>Cohesive gameplay mechanics, dynamics, and aesthetics to leave the player feeling positively bewildered and panicking - 
+        <strong>without</strong> resorting to jumpscares! (not a fan of them myself tbh)</li>
+        <li>Uses keyboard and mouse controls for immersive tactile gameplay sensations -
+        from the satisfying feeling of slamming the space bar to slam the door in someone's face,
+        to blind panic of fumbling around with your mouse to find and hit the mute button on the World's Worst Mixtape before it starts playing.</li>
+      </ul>
+    </div>
+
+    <div class="paragraph">
+      The core power/asleepn'tness systems of <cite>Kevin's</cite> were heavily inspired by the power/exposure systems of
+      <cite>One Night At Flumpty's 2</cite> (instead of the traditional 'fixed amount of power, instant loss when enemy arrives' system
+      used in most FNAF-style games) - however, I sought to add my own spin on the formula within <cite>Kevin's</cite>.
+    </div>
+
+    <div class="paragraph">
+      Without giving away too many details (which would ruin the experience of playing the game!), the gameplay of <cite>Kevin's</cite>
+      is rather simple. You lose when the asleepn'tness bar is filled up - and it fills up if a tortoise/bri'ish person is making noise
+      in front of your room. How do you get them to go away? Slam the door in their face!
+      How do you prevent them from getting there in the first place? Find them in the building,
+      and stare at them through the cameras (they cannot move due to social anxiety).<br/>
+      But, you may be asking - "well, why not just keep the door closed all the time?".
+      Unfortunately, <i>someone</i> decided to try being "helpful" by providing an auto-playing CD player
+      with some utterly horrible tortoise lullabies recorded on it, which you'll need to keep muting in order to not disturb Kevin's pet tortoise.
+      That, and s̷̯̾o̷͚͋m̴͉̿ȩ̵̾t̷̛͇h̸̡̾i̸̢͆n̴̹̓ģ̸͛ tends to rouse whilst the door is closed - so you really <em>don't</em> want to leave it closed unless you want to suffer the Consequences.
+    </div>
+    `,
+    "#3d6933",
+    false,
+    false,
+    ["Unity","C#","pc","horror"]
+  ),
+
+  new ProjectData(
+    "project-4",
+    "A Scientific Interpretation of Daily Life in the Space Towing Industry (Circa 3052 CE)",
+    "img/projects/spacetow-icon.gif",
+    `
+    <div class="paragraph">
+      <strong>A Scientific Interpretation of Daily Life in the Space Towing Industry (Circa 3052 CE)</strong> is a relatively simple
+      <cite>Thrust</cite> clone, written in Java, using my own home-made <strong>CRAPPY</strong>
+      <em>(<b>C</b>ool, <b>R</b>ealism-<b>A</b>djacent <b>P</b>hysics <b>P</b>ackage, <b>Y</b>'know?)</em>
+      2D physics engine. This game (and engine) was created during winter 2021/22 as my assignment project
+      for the <i>Physics-Based Games</i> module during my MSc (earning a mark of 91%).
+    </div>
+
+    <div class="paragraph">
+      <div class="notice notice-container">
+        <div class="notice-text-square">
+          <cite>SpaceTow</cite> is available on <a href="https://11belowstudio.itch.io/spacetow" target="_blank">itch.io</a>.<br/>
+          Available as an .exe for Windows, or as a .jar (requires Java 8 or later).<br/>
+          Source code (including <cite>CRAPPY</cite>) is available on <a href="https://github.com/11BelowStudio/ce812" target="_blank">Github</a>.
+        </div>
+        <div class="notice-itch-square">
+          <iframe frameborder="0" src="https://itch.io/embed/1715087?linkback=true&amp;dark=true" width="100%" height="167">
+          <a href="https://11belowstudio.itch.io/spacetow" target="_blank">A Scientific Interpretation of Daily Life in the Space Towing Industry (Circa 3052 CE) by 11BelowStudio</a>
+          </iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="paragraph">
+      Main features:
+      <ul>
+        <li>Physics engine using double-precision floating point (instead of single-precision) along with configurable gravity and euler substeps for bonus realism-adjacency!</li>
+        <li>Circle/line/edge/polygon colliders, rigidbodies of the static/dynamic/kinematic variety, quadtrees, elastic connectors, collision notifications...</li>
+        <li>Put yourself at the mercy of the laws of physics as they disagree with your spaceship's comedically-misaligned centre of gravity and towing point!</li>
+        <li>Is it just me, or is the gravity thingamajig on the fritz again...</li>
+      <ul>
+    </div>
+
+    <div class="paragraph">
+      Is <em>CRAPPY</em> a physics engine which one should seriously consider using? To be completely honest - probably not.
+      However, creating <em>CRAPPY</em> (along with this game) has helped me to gain a greater appreciation for how
+      the widely-used physics engines are able to simulate physics
+    </div>
+    `,
+    "#09162A",
+    false,
+    false,
+    ["Java","custom engine"]
   ),
 
   new ProjectData(
