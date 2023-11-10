@@ -300,8 +300,8 @@ export default [
 
     <div class="paragraph">
       Is <em>CRAPPY</em> a physics engine which one should seriously consider using? To be completely honest - probably not.
-      However, creating <em>CRAPPY</em> (along with this game) has helped me to gain a greater appreciation for how
-      the widely-used physics engines are able to simulate physics
+      However, creating <em>CRAPPY</em> (along with this game) has helped me to gain a greater understanding of the
+      theory behind how physics engines work - along with 
     </div>
     `,
     "#09162A",
