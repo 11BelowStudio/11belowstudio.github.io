@@ -1,6 +1,95 @@
 import ProjectData from '@/data/ProjectData'
 
 export default [
+
+
+  new ProjectData(
+    "project-pd",
+    "Payday 2 mods etc",
+    "img/projects/pd2-icon.png",
+    `
+    <div class="paragraph">
+      I have developed and contributed to a few mods for Payday 2, and contributed to pd2builder (a build planning tool),
+      so I've lumped them all together here, for ease of organization.
+    </div>
+    
+    <h2>pd2builder</h2>
+
+    <div class="paragraph">
+      As previously mentioned, I have contributed to <a href="https://pd2builder.netlify.app" target="_blank"><strong>pd2builder</strong></a>;
+      specifically, fully implementing the multi-choice functionality of the copycat perk deck.
+      I started from the GUI mock-up produced by one of the other contributors, before proceeding to work out how to
+      store the current state of the chosen options, encoding these options in the URL (like everything else) and
+      decoding said encoding, and working out how to unlock/lock the special perk-deck throwables which the copycat
+      perk deck also has the ability to unlock.<br/>
+      I also added the data for the throwables/deployable which were added to Payday 2 in early 2023 to the website.
+    </div>
+
+    <h2>Wow, Rude!</h2>
+
+    <div class="paragraph">
+      <strong>Wow, Rude!</strong> is a simple lua mod for Payday 2 which I created as a stupid solution to an equally stupid problem.<br/>
+      Some builds require the player to take an enemy hostage and then convert said enemy in order for certain skills to activate.
+      However, many other builds instead focus solely on dealing damage/getting kills constantly in order to activate other skills.
+      The problem arises when player 1 is attempting to take an enemy hostage (and the enemy is in the surrendering process) but then
+      player 2 charges in, dual-wielding SMGs, kills that surrendering enemy, refuses to elaborate, and runs off.
+      Thus, player 1 naturally complains about it, but gets swarmed by enemies and dies mid-message.<br/>
+      <i>Wow, Rude!</i> solves this problem by automating the complaining process.
+    </div>
+
+    <div class="paragraph">
+      <div class="notice">
+        <i>Wow, Rude!</i> is can be downloaded from <a href="https://modworkshop.net/mod/37044" target="_blank">Modworkshop.net</a>
+        (requires <a href="https://superblt.znix.xyz/" target="_blank">SuperBLT</a> and <a href="https://modworkshop.net/mod/21431" target="_blank">HopLib</a>).<br/>
+        Source code is available on <a href="https://github.com/11BelowStudio/wow-rude" target="_blank">GitHub</a>
+      </div>
+    </div>
+
+    <div class="paragraph">
+      <strong>Wow, Rude!</strong> evolved over time in response to user feedback - going from a very simple means of making general complaints,
+      to a rather configurable and toggleable means of making potentially targeted complaints (to name and shame the individuals who clearly
+      do not possess any self-control). These options include:
+      <ul>
+        <li>Can enable/disable it (or set it to only work whilst hosting a game) whenever you want!</li>
+        <li>Can toggle what stage of the intimidation process it should start caring about (from hands up? from when they are a hostage? what if it's still stealth?)</li>
+        <li>Contains two user-editable text files containing the lists of complaints used by the mod (one for 'name and shame mode', one for general mode)</li>
+      </ul>
+
+      The latter of which leads nicely onto...
+    </div>
+
+    <h2>A github actions workflow for SuperBLT mod automatic updates using a mod version number</h2>
+
+    <div class="paragraph">
+      During the development of <i>Wow, Rude!</i>, I
+      found <a href="https://github.com/morerokk/PD2AutoUpdateExample" target="_blank">a Github Actions workflow for automatic mod updates</a>,
+      so I opted to use that for distributing updates for <i>Wow, Rude!</i>. However, upon implementing the configurable text files for <i>Wow, Rude!</i>,
+      I ran into a minor problem. This workflow used a hash of the mod contents as a means of checking if an update was available
+      (any mismatch in local files = prompted to update). However, if an end-user edited the complaint files of <i>Wow, Rude!</i>,
+      that would cause a mismatch, prompting the user to install an update for the mod - which would then eradicate their customization options.
+      As you can probably imagine, this was less than ideal. 
+    </div>
+
+    <div class="paragraph">
+      After looking at the SuperBLT documentation about automatic updates, I found out that it was possible to use a version number instead
+      of a hash (and that the version number is the suggested identifier to use anyway).
+      This prompted me to <a href="https://github.com/11BelowStudio/PD2AutoUpdateExample" target="_blank">produce a fork of this workflow</a>
+      - this time, using version numbers instead of an automatic hash - and update <i>Wow, Rude!</i> to use this workflow instead.
+      This solved the problem with users having their customizations undone by an overzealous automatic updater - instead only getting notified
+      about <i>actual</i> updates (which, unfortunately, will once again overwrite the customizations after installing the update). 
+    </div>
+
+    <div>
+      This updated github actions workflow is also used by <a href="https://modworkshop.net/mod/40647" target="_blank">Rich Presence Definitive</a>
+    </div>
+    `,
+    "#0060df",
+    false,
+    false,
+    ["lua","html","js"]
+  ),
+
+
     new ProjectData("project-6", "Sultans Of Sing", "img/projects/project-6-icon.png", `
     <div class="paragraph">
       <strong>Sultans Of Sing</strong> is a thing of beauty that I am so proud of. It's available on Windows Store because why not.
