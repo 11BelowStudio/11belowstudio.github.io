@@ -2,6 +2,18 @@ import ProjectData from '@/data/ProjectData'
 
 export default [
 
+  new ProjectData(
+    "project-HECC-IT",
+    "HECC-IT (Hypertext Editing and Creation Code Integrated Toolkit)",
+    "img/projects/hecc-it-icon.png",
+    `
+    `,
+    "#E97600",
+    false,
+    false,
+    ["Java","html","js"]
+  ),
+
 
   new ProjectData(
     "project-pd",
@@ -83,7 +95,7 @@ export default [
       This updated github actions workflow is also used by <a href="https://modworkshop.net/mod/40647" target="_blank">Rich Presence Definitive</a>
     </div>
     `,
-    "#0060df",
+    "#0060DF",
     false,
     false,
     ["lua","html","js"]
