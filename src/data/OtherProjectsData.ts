@@ -81,7 +81,7 @@ export default [
     `
     <div class="paragraph">
       I have developed and contributed to a few mods for Payday 2, and contributed to pd2builder (a build planning tool),
-      so I've lumped them all together here, for ease of organization.
+      so I've lumped some of them (the ones worth talking about) together here, for ease of organization.
     </div>
     
     <h2>pd2builder</h2>

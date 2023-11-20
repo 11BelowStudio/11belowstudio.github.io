@@ -38,7 +38,7 @@
       <div>
         <p>
           Employed to design and implement a variant of <cite>CrabFight</cite>, focused towards more of an
-          edutainment/digital archaeology-oriented experience, for the Isle of Man Museum - under
+          edutainment/digital archaeology-oriented experience, for Manx National Heritage - under
           the title of <cite>CrabFind</cite>.
           This game was successfully demonstrated at the Isle of Man Festival of the Sea,
           to positive feedback (see <a href="https://twitter.com/manxnature/status/1683552915808563200" target="_blank">[1]</a>
