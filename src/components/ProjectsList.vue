@@ -1,7 +1,15 @@
 <template>
   <div>
+    <div class="tags-list">
+      <template v-for="tag in filteredTags" :key="tag">
+        <div class="tag-box" @click="onTagClicked(tag)">
+          {{ tag }}
+        </div>
+      </template>
+    </div>
+    <div style="clear:both"> </div>
     <div class="projects-list">
-      <template v-for="project in projects" :key="project.id">
+      <template v-for="project in filteredProjects" :key="project.id">
         <div
             @click="showDetails(project)"
             class="project-item"
@@ -31,6 +39,7 @@
 import { defineComponent } from "vue";
 import ProjectDetailsOverlay from "@/components/ProjectDetailsOverlay.vue";
 import ProjectData from "@/data/ProjectData";
+import ProjectDataCollection from "@/data/ProjectDataCollection";
 
 export default defineComponent({
   name: "ProjectsList",
@@ -38,15 +47,36 @@ export default defineComponent({
     ProjectDetailsOverlay,
   },
   props: {
-    projects: Array<ProjectData>
+    projects: ProjectDataCollection
   },
+
   data: function () {
     return {
       showPopup: false,
       popupTitle: "",
       popupColor: "",
-      popupContent: ""
+      popupContent: "",
+      tagFilter: ""
     };
+  },
+  computed : {
+    filteredProjects() {
+      return this.projects?.getTaggedProjects(this.tagFilter);
+    },
+    filteredTags() {
+      if (this.tagFilter === undefined || this.tagFilter == ""){
+        return this.projects?.tags;
+      } else {
+        if (this.projects?.tags.has(this.tagFilter)){
+          return [this.tagFilter];
+        }
+        else{
+          // eslint-disable-next-line vue/no-side-effects-in-computed-properties
+          this.tagFilter = "";
+          return this.projects?.tags;
+        }
+      }
+    }
   },
   methods: {
     showDetails: function (item: ProjectData) {
@@ -59,6 +89,21 @@ export default defineComponent({
       this.showPopup = true;
       window.scrollTo(0,0);
     },
+
+    onTagClicked: function(clickedTag: string = ""){
+      // if current filter is null, we set filter to the clicked tag.
+      if (this.tagFilter === undefined){
+        this.tagFilter = clickedTag;
+      }
+      // if the current filter is this tag -> we reset the filter (setting it to "")
+      else if (this.tagFilter == clickedTag){
+        this.tagFilter = "";
+      }
+      // otherwise (current filter is something else that isn't this tag), we set filter to the clicked tack
+      else {
+        this.tagFilter = clickedTag;
+      }
+    }
   },
 });
 </script>
@@ -102,7 +147,31 @@ filter: brightness(120%);
   padding: 10px;
 }
 
+.tags-list{
+  margin-bottom: 10px;
+}
+
+.tag-box {
+	float: left;
+	border: 1px solid hsla(0,0%,86.3%,.44);
+	padding: 2px 10px;
+	margin: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.tag-box:hover{
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
+
 @media only screen and (min-width: 620px){
+
+  .tags-list {
+    max-width: 900px;
+  }
+
   .projects-list {
     max-width: 900px;
     display: grid;

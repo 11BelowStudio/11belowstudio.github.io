@@ -1,6 +1,7 @@
-import ProjectData from '@/data/ProjectData'
+import ProjectData from '@/data/ProjectData';
+import ProjectDataCollection from '@/data/ProjectDataCollection';
 
-export default [
+export default new ProjectDataCollection([
 
   new ProjectData(
     "project-0",
@@ -65,7 +66,7 @@ export default [
     "#2A3C37",
     false,
     false,
-    ["node.js","JavaScript","browser","html","game jam"]
+    ["Node.js","JavaScript","browser","HTML","game jam"]
   ),
 
   new ProjectData(
@@ -212,7 +213,7 @@ export default [
     <div class="paragraph">
       <div class="notice notice-container">
         <div class="notice-text-square">
-          <cite>Kevin's</cite> is available on <a href="https://11belowstudio.itch.io/one-unspecified-period-of-time-at-kevins" target="_blank">itch.io</a>.<br/>
+          <cite>One Unspecified Period Of Time At Kevin's</cite> is available on <a href="https://11belowstudio.itch.io/one-unspecified-period-of-time-at-kevins" target="_blank">itch.io</a>.<br/>
           It can be played via browser on PC, or downloaded for Windows.<br/>
           Source code is available on <a href="https://github.com/11BelowStudio/SBIG2022" target="_blank">Github</a>.
         </div>
@@ -257,7 +258,7 @@ export default [
     "#3d6933",
     false,
     false,
-    ["Unity","C#","pc","horror"]
+    ["Unity","C#","PC","horror","game jam","browser"]
   ),
 
   new ProjectData(
@@ -307,7 +308,7 @@ export default [
     "#09162A",
     false,
     false,
-    ["Java","custom engine"]
+    ["Java","custom engine","PC"]
   ),
 
   new ProjectData(
@@ -490,4 +491,4 @@ export default [
     ,
     "#e48246"
   )
-];
+]);

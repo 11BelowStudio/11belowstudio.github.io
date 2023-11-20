@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h1>Stuff</h1>
+    <h1>Games</h1>
 
     <div style="margin-bottom: 30px;">
-      The following are some stuff I've made or heavily contributed to.
+      Here are some of the games I've developed. I have plenty more of them, but these ones are most likely to be of interest to you.
     </div>
 
     <ProjectsList v-bind:projects="projects" />

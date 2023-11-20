@@ -1,6 +1,7 @@
 import ProjectData from '@/data/ProjectData'
+import ProjectDataCollection from '@/data/ProjectDataCollection';
 
-export default [
+export default new ProjectDataCollection([
 
   new ProjectData(
     "project-HECC-IT",
@@ -70,7 +71,7 @@ export default [
     "#E97600",
     false,
     false,
-    ["Java","html","js"]
+    ["Java","HTML","JavaScript"]
   ),
 
 
@@ -157,7 +158,7 @@ export default [
     "#0060DF",
     false,
     false,
-    ["lua","html","js"]
+    ["Lua","HTML","JavaScript"]
   ),
 
 
@@ -263,4 +264,4 @@ export default [
                 Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
               </div>
             </div>`),
-];
+]);
