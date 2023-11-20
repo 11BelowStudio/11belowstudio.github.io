@@ -7,6 +7,65 @@ export default [
     "HECC-IT (Hypertext Editing and Creation Code Integrated Toolkit)",
     "img/projects/hecc-it-icon.png",
     `
+      <div class="paragraph">
+        <strong>HECC-IT</strong> <i>(Hypertext Editing and Creation Code Integrated Toolkit)</i> is a hypertext game authoring tool
+        for desktop, implemented in Java, producing browser-playable hypertext games (HTML/JS).
+        This tool was developed between summer 2020 and spring 2021 for my undergraduate dissertation project.<br/>
+        <strong>HECC-IT</strong> promotes flexible workflows by allowing users the freedom to choose between editing their works
+        via the <i>OH-HECC</i> GUI, or directly editing their .hecc files in their text editor of choice.
+      </div>
+
+      <div class="paragraph">
+        <div class="notice notice-container">
+          <div class="notice-text-square">
+            <i>HECC-IT</i> can be downloaded for PC from <a href="https://11belowstudio.itch.io/hecc-it" target="_blank">itch.io</a> (requires Java).<br/>
+            Source code is available on <a href="https://github.com/11BelowStudio/HECC-IT" target="_blank">GitHub</a><br/>
+            A selection of games developed with HECC-IT can be played via browser (PC and mobile) on <a href="https://itch.io/c/2711735/hecc-it" target="_blank">itch.io</a>
+          </div>
+          <div class="notice-itch-square">
+            <iframe frameborder="0" src="https://itch.io/embed/999401?linkback=true&amp;dark=true" width="100%" height="167">
+            <a href="https://11belowstudio.itch.io/hecc-it" target="_blank">HECC-IT! by 11BelowStudio</a></iframe>
+            </iframe>
+          </div>
+        </div>
+      </div>
+
+      <div class="paragraph">
+        Main features:
+        <ul>
+          <li>
+            Uses an intermediate declarative language (<b>HECC</b> <i>(Hypertext Editing and Creation Code)</i> 
+            - specified in the <i>HECC-SPECC</i>) to store WIP games -
+            and can be easily edited in a text editor of your choice, or via the included <b>OH-HECC</b> <i>(Optional Help for HECC)</i> GUI.
+          </li>
+          <li>
+            Uses the <b>HECC-UP</b> (<i>HECC Ultra Parser</i>) utility (GUI or command line) to convert the .hecc file
+            into a browser-playable <b>HECCIN' Game</b> <i>(HECC-Infused <span class="reveal">Nice<span class="opposite-hide">*</span> <span class="hide">[in
+            the sense of 'oh nice you used HECC to make this' - this does not reflect the quality of the game nor does it indicate endorsement of it]</span></span>
+            Game)</i>.
+          </li>
+          <li>
+            Supports markdown, conditional statements (based on visited nodes), a back button, the ability to disable the back button, and more!
+          </li>
+        </ul>
+      </div>
+
+      <div class="paragraph">
+        The key selling point of <cite>HECC-IT</cite> is the flexibility it offers between using a GUI and a plain text editor when writing your games,
+        due to both methods using the same intermediate .HECC format
+        - completely avoiding the chicanery of converting between intermediate formats or constant exports/imports
+        in order to use the other editing method.
+        Compare this to the amount of faffing around needed to swap between using <cite>Twine</cite> (GUI) and <cite>twee</cite> (text),
+        or between <cite>Inklewriter</cite> (GUI) and <cite>.ink</cite> (text) - <cite>HECC-IT</cite>
+        ultimately provides a much better user experience in this regard.
+      </div>
+
+      <div class="paragraph">
+        Granted, compared to the more established tools, <cite>HECC-IT</cite> doesn't offer a similar breadth or depth of functionality,
+        and, in hindsight, the status of <cite>HECC-IT</cite> as a desktop-only Java application requiring a download
+        (without any sort of browser version of the <cite>HECC-IT</cite> toolkit)
+        probably doesn't lend itself towards encouraging people to casually try out the tool.
+      </div>
     `,
     "#E97600",
     false,

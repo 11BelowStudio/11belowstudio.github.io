@@ -70,6 +70,32 @@
         opacity: 0.6;
     }
 
+
+    .hide {
+        display: none;
+    }
+
+    .opposite-hide {
+        display: inline;
+    }
+
+    .reveal {
+        text-decoration: underline dotted;
+    }
+
+    .reveal:hover{
+        text-decoration: inherit;
+    }
+
+    .reveal:hover > .hide {
+        display: inline;
+        height: 90%;
+    }
+
+    .reveal:hover > .opposite-hide {
+        display: none;
+    }
+
     @media only screen and (min-width: 620px){
         iframe.youtube {
             max-width: 728px;
