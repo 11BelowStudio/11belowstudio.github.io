@@ -1,5 +1,8 @@
 import ProjectData from '@/data/ProjectData'
 
+/** const for the 'All' string */
+const ALL: string = "All";
+
 export default class ProjectDataCollection {
     /** list of all the projects */
     projects: ProjectData[];
@@ -12,7 +15,7 @@ export default class ProjectDataCollection {
      */
     constructor(_projects: ProjectData[] = []){
         this.projects = _projects;
-        this.tags = new Set<string>();
+        this.tags = new Set<string>([ALL]);
         _projects.forEach(proj => {
             // adding project tags to tags set
             proj.tags.forEach(this.tags.add, this.tags);
@@ -25,7 +28,7 @@ export default class ProjectDataCollection {
      * @returns array of IDs of all projects that are tagged with the given tag.
      */
     getTaggedProjects(tag:string=""): ProjectData[] {
-        if (tag === undefined || tag == ""){
+        if (tag === undefined || tag == "" || tag == ALL){
             return this.projects.slice(0);
         }
         if (!this.tags.has(tag)){
@@ -52,7 +55,7 @@ export default class ProjectDataCollection {
      * @returns array of IDs of all projects that are tagged with the given tag.
      */
     getTaggedProjectIDs(tag:string = ""): string[] {
-        if (tag === undefined || tag == ""){
+        if (tag === undefined || tag == "" || tag == ALL){
             return this.projects.map(proj => proj.id);
         }
         if (!this.tags.has(tag)){

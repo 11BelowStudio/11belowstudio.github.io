@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="tags-list">
-      <template v-for="tag in filteredTags" :key="tag">
+      <template v-for="tag in projects?.tags" :key="tag">
         <div class="tag-box" @click="onTagClicked(tag)">
           {{ tag }}
         </div>
