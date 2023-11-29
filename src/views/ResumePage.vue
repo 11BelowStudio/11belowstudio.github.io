@@ -20,8 +20,8 @@
       </div>
     </div>
     <div class="photo">
-      <img :src="`/img/resume-photo.png`" alt="Rachel" />
-      <p>caption caption caption</p>
+      <img :src="`/img/resume-image-occultoctoling.png`" alt="Rachel" />
+      <p><a href="https://picrew.me/en/image_maker/1759442" target="_blank">Art</a> by <a href="https://picrew.me/en/search/creator?crid=2167697" target="_blank">@occultoctoling</a></p>
     </div>
 
     <div style="clear:both"></div>
@@ -358,6 +358,10 @@ h4 {
 .photo img {
   height: 300px;
   width: 300px;
+}
+
+.photo p {
+  margin-top:0px;
 }
 
 .tech-stack {
