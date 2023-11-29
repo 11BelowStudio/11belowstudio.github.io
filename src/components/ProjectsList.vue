@@ -71,8 +71,6 @@ export default defineComponent({
           return [this.tagFilter];
         }
         else{
-          // eslint-disable-next-line vue/no-side-effects-in-computed-properties
-          this.tagFilter = "";
           return this.projects?.tags;
         }
       }
@@ -165,6 +163,7 @@ filter: brightness(120%);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
 }
+
 
 @media only screen and (min-width: 620px){
 

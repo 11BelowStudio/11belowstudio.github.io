@@ -7,6 +7,7 @@
       I'm <strong>Rachel Lowe</strong>, a prize-winning Computer Games MSc graduate, currently looking to apply my skills and experience to the games industry.
       <br/>I have experience designing and developing single-player and multi-player games, for desktop and mobile, both individually and as part of a team.
       <br/>I have recently been employed to develop bespoke videogames for Natural England and the Isle of Man Museum.
+      <br/>I treat games as works of art; and I endeavour to fulfil the artistic vision of the designer to the best of my ability.
       <br/>
       <br/>Currently, I'm trying to find a job, either in a design role or a development role.
       <br/>If you have any opportunities which you think I'd be a good fit for, feel free to <router-link to="/contact">contact me</router-link>.
@@ -14,8 +15,7 @@
       <br/>Besides games, I'm passionate about -->
 
       <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
-        <a class="download-link" href="d/cv-fr.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Télécharger en PDF 🇫🇷</a>
+        <a class="download-link" href="d/rachel-lowe-cv.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i>Download as PDF (Concise)</a>
         <div style="clear:both"></div>
       </div>
     </div>

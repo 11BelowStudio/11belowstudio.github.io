@@ -100,6 +100,7 @@ a.dialog-close-button {
   margin: 0 auto;
 }
 
+
 @media only screen and (min-width: 620px){
   .dialog {
     margin: 0 auto;

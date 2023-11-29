@@ -4,8 +4,8 @@
 
     <div class="skill-rate">
       <template v-for="n in 5">
-        <div v-if="n <= rate" class="circle circle-full" :key="`${name}-${n}`"></div>
-        <div v-if="n > rate" class="circle circle-empty" :key="`${name}-${n}`"></div>
+        <div v-if="rate === undefined || n <= rate" class="circle circle-full" :key="`${name}-${n}`"></div>
+        <div v-if="rate !== undefined && n > rate" class="circle circle-empty" :key="`${name}-${n}`"></div>
       </template>
     </div>
     <div class="clear"></div>

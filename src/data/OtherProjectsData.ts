@@ -33,7 +33,7 @@ export default new ProjectDataCollection([
 
       <div class="paragraph">
         Main features:
-        <ul>
+        <ul class="features-list">
           <li>
             Uses an intermediate declarative language (<b>HECC</b> <i>(Hypertext Editing and Creation Code)</i> 
             - specified in the <i>HECC-SPECC</i>) to store WIP games -
@@ -121,7 +121,7 @@ export default new ProjectDataCollection([
       <strong>Wow, Rude!</strong> evolved over time in response to user feedback - going from a very simple means of making general complaints,
       to a rather configurable and toggleable means of making potentially targeted complaints (to name and shame the individuals who clearly
       do not possess any self-control). These options include:
-      <ul>
+      <ul class="features-list">
         <li>Can enable/disable it (or set it to only work whilst hosting a game) whenever you want!</li>
         <li>Can toggle what stage of the intimidation process it should start caring about (from hands up? from when they are a hostage? what if it's still stealth?)</li>
         <li>Contains two user-editable text files containing the lists of complaints used by the mod (one for 'name and shame mode', one for general mode)</li>
