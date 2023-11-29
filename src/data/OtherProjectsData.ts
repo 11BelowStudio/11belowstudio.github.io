@@ -6,7 +6,7 @@ export default new ProjectDataCollection([
   new ProjectData(
     "project-HECC-IT",
     "HECC-IT (Hypertext Editing and Creation Code Integrated Toolkit)",
-    "img/projects/hecc-it-icon.png",
+    "img/projects/hecc-it.png",
     `
       <div class="paragraph">
         <strong>HECC-IT</strong> <i>(Hypertext Editing and Creation Code Integrated Toolkit)</i> is a hypertext game authoring tool
@@ -49,6 +49,12 @@ export default new ProjectDataCollection([
             Supports markdown, conditional statements (based on visited nodes), a back button, the ability to disable the back button, and more!
           </li>
         </ul>
+      </div>
+
+      <div class="paragraph center">
+          <img class="pc-screenshot" src="/img/projects/hecc-it/oh-hecc.png" alt="A screenshot of the OH-HECC GUI" />
+          <img class="pc-screenshot" src="/img/projects/hecc-it/hecc-up.png" alt="A screenshot of the HECC-UP GUI" />
+          <img class="pc-screenshot" src="/img/projects/hecc-it/menu.png" alt="The main menu of HECC-IT" /> 
       </div>
 
       <div class="paragraph">
