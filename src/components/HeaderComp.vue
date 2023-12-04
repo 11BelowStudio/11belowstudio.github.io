@@ -4,7 +4,7 @@
       <router-link to="/">About me</router-link>
       <router-link to="/game-projects">Games</router-link>
       <router-link to="/other-projects">Other projects</router-link>
-      <router-link to="/resume">Résumé</router-link>
+      <router-link to="/cv">CV</router-link>
       <router-link to="/contact">Contact</router-link>
     </div>
   </div>

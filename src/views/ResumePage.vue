@@ -1,8 +1,13 @@
 <template>
   <div>
-    <h1>Résumé</h1>
+    <h1>CV</h1>
 
     <div class="paragraph">
+
+      <div style="margin-top:20px; margin-bottom:20px;">
+        <a class="download-link" href="d/rachel-lowe-cv.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i>Download as PDF (Concise)</a>
+        <div style="clear:both"></div>
+      </div>
 
       I'm <strong>Rachel Lowe</strong>, a prize-winning Computer Games MSc graduate, currently looking to apply my skills and experience to the games industry.
       <br/>I have experience designing and developing single-player and multi-player games, for desktop and mobile, both individually and as part of a team.
@@ -14,10 +19,7 @@
       <!-- <br/>
       <br/>Besides games, I'm passionate about -->
 
-      <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/rachel-lowe-cv.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i>Download as PDF (Concise)</a>
-        <div style="clear:both"></div>
-      </div>
+      
     </div>
     <div class="photo">
       <img :src="`/img/resume-image-occultoctoling.png`" alt="Rachel" />
@@ -272,6 +274,8 @@
           I find the end result of solving these problems to be rather satisfying.
         </div>
 
+        <!--
+
         <h3>I 💚 Theme Parks</h3>
         <div>
           Does this have anything to do with getting into the games industry? Good question!<br/>
@@ -282,7 +286,6 @@
           through my games.
         </div>
 
-        <!--
         <h3>I 💙 placeholder</h3>
 
         <h3>I 💜 placeholder</h3>

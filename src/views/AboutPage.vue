@@ -8,7 +8,7 @@
         Nowadays I'm mostly preoccupied with navigating the job market, whilst doing some volunteering in the community.
       </div>
 
-      <div style="margin-top: 20px;">I've <router-link to="/game-projects">made games</router-link>, dabbled in <router-link to="/other-projects">non-games</router-link>, and you can see <router-link to="/resume">my résumé</router-link> as well.</div>
+      <div style="margin-top: 20px;">I've <router-link to="/game-projects">made games</router-link>, dabbled in <router-link to="/other-projects">non-games</router-link>, and you can see <router-link to="/cv">my CV</router-link> as well.</div>
 
       <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> - ideally either as a game programmer or a game designer. You can reach me <!--at <a href="mailto:johnmatrix@deltaforce.us">johnmatrix@deltaforce.us</a> or --><router-link to="/contact">through here</router-link>.</div>
     </div>

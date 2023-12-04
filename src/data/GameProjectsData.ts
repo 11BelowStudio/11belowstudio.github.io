@@ -35,8 +35,8 @@ export default new ProjectDataCollection([
     <div class="paragraph">
       Main features:
       <ul class="features-list">
-        <li>Live service using a persistent database!</li>
-        <li>Has an API!</li>
+        <li>Live service using a persistent database</li>
+        <li>Has an API</li>
         <li>Input sanitization and prepared statements to prevent SQL injection attacks etc</li>
       </ul>
     </div>
@@ -327,8 +327,8 @@ export default new ProjectDataCollection([
     false,
     false,
     ["Java","custom engine","PC"]
-  ),
-
+  )
+/*
   new ProjectData(
     "ex_project-1", 
     "Optimistic Chubby", 
@@ -509,4 +509,5 @@ export default new ProjectDataCollection([
     ,
     "#e48246"
   )
+  */
 ]);

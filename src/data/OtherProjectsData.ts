@@ -94,13 +94,12 @@ export default new ProjectDataCollection([
     <h2>pd2builder</h2>
 
     <div class="paragraph">
-      As previously mentioned, I have contributed to <a href="https://pd2builder.netlify.app" target="_blank"><strong>pd2builder</strong></a>;
+      I have contributed to <a href="https://pd2builder.netlify.app" target="_blank"><strong>pd2builder</strong></a>;
       specifically, fully implementing the multi-choice functionality of the copycat perk deck.
       I started from the GUI mock-up produced by one of the other contributors, before proceeding to work out how to
       store the current state of the chosen options, encoding these options in the URL (like everything else) and
       decoding said encoding, and working out how to unlock/lock the special perk-deck throwables which the copycat
-      perk deck also has the ability to unlock.<br/>
-      I also added the data for the throwables/deployable which were added to Payday 2 in early 2023 to the website.
+      perk deck also has the ability to unlock.
     </div>
 
     <h2>Wow, Rude!</h2>
@@ -112,7 +111,7 @@ export default new ProjectDataCollection([
       The problem arises when player 1 is attempting to take an enemy hostage (and the enemy is in the surrendering process) but then
       player 2 charges in, dual-wielding SMGs, kills that surrendering enemy, refuses to elaborate, and runs off.
       Thus, player 1 naturally complains about it, but gets swarmed by enemies and dies mid-message.<br/>
-      <i>Wow, Rude!</i> solves this problem by automating the complaining process.
+      <i>Wow, Rude!</i> solves this problem by automating the complaining process - leaving a complaint in chat automatically when someone kills your hostages.
     </div>
 
     <div class="paragraph">
@@ -167,7 +166,7 @@ export default new ProjectDataCollection([
     ["Lua","HTML","JavaScript"]
   ),
 
-
+/*
     new ProjectData("project-6", "Sultans Of Sing", "img/projects/project-6-icon.png", `
     <div class="paragraph">
       <strong>Sultans Of Sing</strong> is a thing of beauty that I am so proud of. It's available on Windows Store because why not.
@@ -269,5 +268,6 @@ export default new ProjectDataCollection([
               <div class="notice">
                 Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
               </div>
-            </div>`),
+            </div>`)
+*/
 ]);

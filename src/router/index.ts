@@ -18,8 +18,8 @@ export function createRouter(){
         component: AboutView
       },
       {
-        path: '/resume',
-        name: 'Resume',
+        path: '/cv',
+        name: 'CV',
         component: ResumeView
       },
       {
