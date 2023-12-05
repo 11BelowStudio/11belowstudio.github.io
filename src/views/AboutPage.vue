@@ -4,11 +4,18 @@
 
     <div class="paragraph">
       <div>
-        I'm <strong>Rachel</strong>, a Computer Games graduate who makes games (designing and implementating them) and solves problems.<br/>
-        Nowadays I'm mostly preoccupied with navigating the job market, whilst doing some volunteering in the community.
+        I'm <strong>Rachel</strong>, a prize-winning Computer Games MSc graduate,
+        currently looking to apply my skills and experience to the games industry in a design or development role.<br/>
+        I have experience designing and developing single-player and multi-player games, for desktop and mobile,
+        both individually and as part of a team, using Unity and other platforms.
+        I have recently been employed to develop bespoke video games for Natural England and Manx National Heritage.
       </div>
 
-      <div style="margin-top: 20px;">I've <router-link to="/game-projects">made games</router-link>, dabbled in <router-link to="/other-projects">non-games</router-link>, and you can see <router-link to="/cv">my CV</router-link> as well.</div>
+      <div style="margin-top: 20px;">To see my CV, <router-link to="/cv">click here</router-link>.</div>
+
+      <div style="margin-top: 20px;">To see some of the games I've produced, <router-link to="/game-projects">click here</router-link>.</div>
+
+      <div style="margin-top: 20px;">To see some of the other projects I've worked on, <router-link to="/other-projects">click here</router-link>.</div>
 
       <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> - ideally either as a game programmer or a game designer. You can reach me <!--at <a href="mailto:johnmatrix@deltaforce.us">johnmatrix@deltaforce.us</a> or --><router-link to="/contact">through here</router-link>.</div>
     </div>

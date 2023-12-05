@@ -1,9 +1,10 @@
 <template>
   <div>
-    <h1>Other stuff</h1>
+    <h1>Other projects</h1>
 
     <div style="margin-bottom: 30px;">
-      And here are some other stuff I've made or heavily contributed to, which are totally different than the stuff from earlier.
+      Here are some of the other, non-game projects I've worked on.<br/>
+      I have more of these on <a target="_blank" href="https://github.com/11BelowStudio">github</a>, but these are the most interesting ones.
     </div>
     <ProjectsList v-bind:projects="projects" />
   </div>

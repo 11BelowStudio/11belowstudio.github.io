@@ -92,7 +92,7 @@ h1 {
 
   h1 {
     margin-top: 0.67em;
-    margin-bottom: 80px;
+    margin-bottom: 40px;
     line-height: 0.7em;
   }
 

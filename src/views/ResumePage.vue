@@ -4,11 +4,16 @@
 
     <div class="paragraph">
 
-      <div style="margin-top:20px; margin-bottom:20px;">
+      <div style=" margin-bottom:10px;">
         <a class="download-link" href="d/rachel-lowe-cv.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i>Download as PDF (Concise)</a>
         <div style="clear:both"></div>
       </div>
-
+      <p>
+        Prize-winning graduate, with a track record of successfully delivering bespoke games for external clients, seeking an opportunity to apply my skills and experience in the games industry.
+      I treat games as works of art, and I endeavour to fulfil the artistic vision of the designer to the best of my ability.
+      </p>
+      
+      <!---
       I'm <strong>Rachel Lowe</strong>, a prize-winning Computer Games MSc graduate, currently looking to apply my skills and experience to the games industry.
       <br/>I have experience designing and developing single-player and multi-player games, for desktop and mobile, both individually and as part of a team.
       <br/>I have recently been employed to develop bespoke videogames for Natural England and the Isle of Man Museum.
@@ -16,15 +21,18 @@
       <br/>
       <br/>Currently, I'm trying to find a job, either in a design role or a development role.
       <br/>If you have any opportunities which you think I'd be a good fit for, feel free to <router-link to="/contact">contact me</router-link>.
+      -->
       <!-- <br/>
       <br/>Besides games, I'm passionate about -->
 
       
     </div>
-    <div class="photo">
+    <!--
+    <div class="photo" style="margin-top:0px;">
       <img :src="`/img/resume-image-occultoctoling.png`" alt="Rachel" />
       <p><a href="https://picrew.me/en/image_maker/1759442" target="_blank">Art</a> by <a href="https://picrew.me/en/search/creator?crid=2167697" target="_blank">@occultoctoling</a></p>
     </div>
+    -->
 
     <div style="clear:both"></div>
 
@@ -167,10 +175,10 @@
       <h4>2021 - 2022</h4>
       <div>
         <p>
-          Overall result: 84%. <b>Distinction.</b>
-          - Awarded Big Essex Platinum Award for volunteering contributions during my degrees.
+          Overall result: 84%. <b>Distinction.</b><br/>
+          - Awarded the Big Essex Platinum Award for volunteering contributions during my degrees.
         </p>
-        <div class="tech-stack">Game Artificial Intelligence (92%),
+        <!--div class="tech-stack">Game Artificial Intelligence (92%),
           Physics-Based Games (96%),
           Game Design (85%),
           Group Project (Incorporating a Game Jam) (81%),
@@ -178,7 +186,7 @@
           Professional Practice and Research Methodology (84%),
           Machine Learning (93%),
           Data Science and Decision Making (76%),
-          MSc Project and Dissertation (82%).</div>
+          MSc Project and Dissertation (82%).</div-->
       </div>
 
       <h3>University of Essex - BSc Computer Games</h3>
@@ -199,18 +207,12 @@
       <div>
         <p>
           I provide weekly drop-in support sessions at my local library,
-          helping people who are in need of assistance with computers to do
-          whatever it is they're trying to do. This ranges from simple tasks
+          helping people who are in need of assistance with computers.
+          This ranges from simple tasks
           (such as scanning/printing documents or browsing the internet) to
           some more complex tasks (such as navigating kafkaesque online bureaucracy,
-          or recovering logins to seldom-used emails), and the occasional
-          completely unexpected curveball.<br/>
-          When solving these problems, I work through the solution with
-          whoever it is I'm helping; this involvement not only ensures
-          that I'm solving the specific issue they needed solving,
-          but also teaches them how to solve the problem themselves - enhancing
-          their digital skills, improving their confidence with technology,
-          and empowering them with this knowledge.
+          or recovering logins to seldom-used emails).<br/>
+          I aim to empower people by enhancing their digital skills, and improving their confidence with technology.
         </p>
       </div>
 

@@ -14,7 +14,8 @@ export default new ProjectDataCollection([
       <br/>The theme for the jam this year was <cite>Every Suggestion Combined</cite>,
       so I decided to take the theme in a completely tangental direction,
       by creating a simple card game intended to be the <i>sum of everyone's suggestions</i> in card game form.
-      In other words - every single card is a user contribution, and the interactions between them are determined via precedent.
+      In other words - every single card is a user contribution, and the interactions between them are determined via precedent,
+      whilst going for an overall feeling of being 'designed by committee' (hence the name).
     </div>
 
     <div class="paragraph">
@@ -56,7 +57,7 @@ export default new ProjectDataCollection([
       <br/>The core ideas of 'user-created cards', 'players must select the objectively superior card',
       and 'a third party must be the ultimate arbitrator of what qualifies as "objectively superior"'
       came rather quickly afterwards.
-      <br/>I initially considered trying to make this game as a purely physical game
+      <br/>I initially considered trying to make this game as a purely physical card game
       - mostly motivated by time constraints, but also due to the potential physical comedy of an ever-increasing
       physical deck of cards one would have to keep using and adding to - but practicality
       (and the greater potential comedy from having one deck that everyone contributes to) led to the present implementation.
@@ -85,7 +86,7 @@ export default new ProjectDataCollection([
       <strong>CrabFight</strong> is a cross-platform online multiplayer crab simulator for Windows, Linux, and Android (developed using Unity).
       Players play as crabs within real photogrammetry environments from the
       <a href="https://www.eastern-ifca.gov.uk/cromer-shoal-chalk-beds-mcz/" target="_blank">Cromer Shoal Chalk Beds Marine Conservation Zone</a>,
-      and simply need to survive..
+      and simply need to survive.
       <br/>
       <cite>CrabFight</cite> was originally developed as my MSc thesis project, but I have been employed to develop it further for Natural England,
       under the title of <strong>CLAWS</strong> - which has been successfully
@@ -121,8 +122,7 @@ export default new ProjectDataCollection([
     </div>
 
     <div class="paragraph">
-      Now, you may be asking 'why does this game exist and why was Natural England involved?'. Simple.<br/>
-      Back in 2019/20, there was some work done by Natural England and the University of Essex regarding ongoing
+      This project was a continuation of an existing partnership between Natural England and the University of Essex regarding ongoing
       conservation efforts in the <a href="https://publications.naturalengland.org.uk/publication/4884193307000832" target="_blank">Cromer Shoal MCZ</a>,
       and as part of that work, some photogrammetry models of the Cromer Shoal sea floor were produced. Then, in late 2021 (during my MSc),
       one of the possible dissertation projects was to create a game (using said models) which can be used to evaluate the impacts of environment complexity
@@ -213,7 +213,7 @@ export default new ProjectDataCollection([
       is an immersive survival horror game/fnaf clone, created in Unity, for PC.<br/>
       This Gesamtkunstwerk was made for the <a href="https://itch.io/jam/sbigjam2022" target="_blank"><em>'So Bad It's Good' Jam 2022</em></a> (August 2022)
       - the theme of which being <em>"Shh! The tortoise might hear!"</em> - naturally leading to the development of this masterpiece
-      in which you need to save Kevin's pet tortoise from being woken up by the other tortoises in his contrived tortoise sanctuary.
+      in which you need to save Kevin's pet tortoise from being woken up by the other tortoises in his contrived plot device of a Tortoise Sanctuary.
       Somehow, <a href="https://itch.io/jam/sbigjam2022/rate/1653073" target="_blank">this entry</a> came in 9th place overall, and 1st in the 'modifier' category.
     </div>
 
@@ -237,7 +237,7 @@ export default new ProjectDataCollection([
       <ul class="features-list">
         <li>Live camera feeds of totally legit tortoises in a totally sensible tortoise-shaped tortoise sanctuary for a totally realistic gameplay experience!</li>
         <li>Cohesive gameplay mechanics, dynamics, and aesthetics to leave the player feeling positively bewildered and panicking - 
-        <strong>without</strong> resorting to jumpscares! (not a fan of them myself tbh)</li>
+        <strong>without</strong> resorting to jumpscares! (not a fan of them myself)</li>
         <li>Uses keyboard and mouse controls for immersive tactile gameplay sensations -
         from the satisfying feeling of slamming the space bar to slam the door in someone's face,
         to blind panic of fumbling around with your mouse to find and hit the mute button on the World's Worst Mixtape before it starts playing.</li>
@@ -250,23 +250,36 @@ export default new ProjectDataCollection([
       <img class="pc-screenshot" src="img/projects/kevin-tortoise/kevin-3.png" alt="ok cool you can shut up now percival" />
       <img class="pc-screenshot" src="img/projects/kevin-tortoise/kevin-4.png" alt="There is nothing sinister going on behind the scenes here :)" />
     </div>
-
+    
     <div class="paragraph">
-      The core power/asleepn'tness systems of <cite>Kevin's</cite> were heavily inspired by the power/exposure systems of
+      I had two main design goals in mind for this game. The first was to make the player panic. The second was to make the experience feel
+      amusingly scuffed (befitting the <i>So Bad It's Good</i> nature of the game jam).
+    </div>
+    
+    <div class="paragraph">
+      The core power/"asleepn'tness" systems of <cite>Kevin's</cite> were heavily inspired by the power/exposure systems of
       <cite>One Night At Flumpty's 2</cite> (instead of the traditional 'fixed amount of power, instant loss when enemy arrives' system
-      used in most FNAF-style games) - however, I sought to add my own spin on the formula within <cite>Kevin's</cite>.
+      used in most FNAF-style games). This lose condition felt more in line with the game scenario (not waking up Kevin's pet tortoise),
+      and the recharging camera power was easier to balance, whilst demanding near-constant player attention.
     </div>
 
     <div class="paragraph">
-      Without giving away too many details (which would ruin the experience of playing the game!), the gameplay of <cite>Kevin's</cite>
-      is rather simple. You lose when the asleepn'tness bar is filled up - and it fills up if a tortoise/bri'ish person is making noise
-      in front of your room. How do you get them to go away? Slam the door in their face!
-      How do you prevent them from getting there in the first place? Find them in the building,
-      and stare at them through the cameras (they cannot move due to social anxiety).<br/>
-      But, you may be asking - "well, why not just keep the door closed all the time?".
-      Unfortunately, <i>someone</i> decided to try being "helpful" by providing an auto-playing CD player
-      with some utterly horrible tortoise lullabies recorded on it, which you'll need to keep muting in order to not disturb Kevin's pet tortoise.
-      That, and s̷̯̾o̷͚͋m̴͉̿ȩ̵̾t̷̛͇h̸̡̾i̸̢͆n̴̹̓ģ̸͛ tends to rouse whilst the door is closed - so you really <em>don't</em> want to leave it closed unless you want to suffer the Consequences.
+      The first thing I designed was actually the layout of the building - in the shape of a very crudely-drawn tortoise - for the latter design goal.
+      I then started thinking about possible routes which enemies could take through the building to the player - culminating in the behaviours of the four main enemies
+      (all but one of which being incredibly contrived 'tortoises', for lore reasons).
+      Each of the enemies have different paths to the player's location (one takes the same route every time, one has a route that gradually shortens,
+      one takes a randomly-selected route, and one has a very short route but can be moved back if stared at enough), and fill up "asleepn'tness" at differing rates,
+      requiring the player to prioritize which threats to respond to.<br/>
+      Of course, the player could opt to just leave the door to the office closed all the time, and remain safe - which is why there are two mechanics to prevent this.
+      The first one is in the form of a recurring character from my previous <i>So Bad It's Good Jam</i> entries, whom decided to be "helpful" by providing
+      an auto-playing CD player full of utterly horrible tortoise lullabies, forcing the player to turn around and mute it regularly (leaving the door ajar) before it can disturb the tortoise.
+      The second was added later on - in the form of s̷̯̾o̷͚͋m̴͉̿ȩ̵̾t̷̛͇h̸̡̾i̸̢͆n̴̹̓ģ̸͛ utterly unnatural, whom only moves whilst the door is held closed, and tends to aggravate the other tortoises
+      (and makes the CD player unmute itself faster) whenever it moves - leading to Consequences for those whom try to cower behind the door all the time.
+    </div>
+
+    <div class="paragraph">
+      One flaw with the game is that the comedic value of it is mostly derived from the absurd situation the player finds themselves in - which, once the player
+      gets over it, immediately becomes mundane. As a game jam game, this arguably isn't a massive problem, but it does severely hinder replayability.
     </div>
     `,
     "#3d6933",

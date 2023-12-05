@@ -2,15 +2,17 @@
   <div>
     <h1>Games</h1>
 
-    <div style="margin-bottom: 30px;">
-      Here are some of the games I've developed. I have plenty more of them, but these ones are most likely to be of interest to you.
+    <div style="margin-bottom: 20px;">
+      Here are some of the games I've developed.<br/>
+      I have even more of them on <a target="_blank" href="https://11BelowStudio.itch.io">my itch.io page</a>,
+      but these ones are most likely to be of interest to you.
     </div>
 
     <ProjectsList v-bind:projects="projects" />
 
-    <div style="margin-top: 20px;">
+    <!--div style="margin-top: 20px;">
       I have even more games (which you can play for yourself) on <a target="_blank" href="https://11BelowStudio.itch.io">my itch.io page</a>
-    </div>
+    </div-->
   </div>
 </template>
 
