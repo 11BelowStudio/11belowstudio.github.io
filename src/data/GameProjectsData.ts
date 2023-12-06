@@ -64,11 +64,12 @@ export default new ProjectDataCollection([
     </div>
 
     <div class="paragraph">
-      Whilst I'm overall unsatisfied with the final state of <cite>Committy</cite>
-      (with plenty of features ending up on the cutting room floor),
-      I think that it certainly could have gone worse,
-      especially considering that it was my first attempt at using Node.js for anything,
-      and I was developing it during a somewhat turbulent time.
+      Overall, I'm rather unsatisfied with the final state of <cite>Committy</cite>.
+      Several planned features (such as online multiplayer) ended up on the cutting room floor (time constraints),
+      the intended feeling of being 'designed by committee' was not fully realized,
+      and the overall concept was rather mediocre overall.
+      Sure, it was my first ever attempt at using Node.js, and it did have a <i>very</i> rushed development cycle,
+      so it could have gone worse - but it could have gone much better.
     </div>
     `,
     "#2A3C37",
@@ -142,7 +143,7 @@ export default new ProjectDataCollection([
     `,
     "#DA4A43",
     false,
-    true,
+    false,
     ["Unity","C#","PC","mobile","multiplayer"]
   ),
 
@@ -157,7 +158,7 @@ export default new ProjectDataCollection([
       following a prior partnership between them and the University of Essex involving the
       <a href="https://www.bbc.co.uk/news/world-europe-isle-of-man-64075947" target="_blank">digital preservation of the wreckage of the HMS Racehorse</a>.
       I was tasked with adapting <cite>CrabFight</cite> into a more digital archaeology-based experience, for use at a public event,
-      with an experience focused on digital archaeology/edutainment - albeit with a rather short time window in which to develop it.<br/>
+      with an experience focused on digital archaeology/edutainment - albeit with a very short time window in which to develop it.<br/>
       However, the feedback recieved about the deliverable was <a href="https://twitter.com/manxnature/status/1683552915808563200" target="_blank">positive</a>.
     </div>
 
@@ -171,7 +172,7 @@ export default new ProjectDataCollection([
     </div>
 
     <div class="paragraph">
-      The gameplay of <cite>CrabFind</cite> was somewhat inspired by that of <cite>Jackbox</cite>/<cite>Kahoot</cite>,
+      The high-level gameplay structure of <cite>CrabFind</cite> was somewhat inspired by that of <cite>Jackbox</cite>/<cite>Kahoot</cite>,
       using prompts shown to all players on a host machine to guide gameplay on client machines.
       At an abstract level, players are given three clues (one at a time), displayed on the screen of the host PC,
       and need to find the appropriate artefact (from the HMS Racehorse) in the wreckage. The fewer clues it took for one to find the answer,
@@ -319,7 +320,7 @@ export default new ProjectDataCollection([
     <div class="paragraph">
       Main features:
       <ul class="features-list">
-        <li>Physics engine using double-precision floating point (instead of single-precision) along with configurable gravity and euler substeps for bonus realism-adjacency!</li>
+        <li>Physics engine using double-precision floating point (instead of single-precision) maths along with configurable gravity and euler substeps for bonus realism-adjacency!</li>
         <li>Circle/line/edge/polygon colliders, rigidbodies of the static/dynamic/kinematic variety, quadtrees, elastic connectors, collision notifications...</li>
         <li>Put yourself at the mercy of the laws of physics as they disagree with your spaceship's comedically-misaligned centre of gravity and towing point!</li>
         <li>Is it just me, or is the gravity thingamajig on the fritz again...</li>

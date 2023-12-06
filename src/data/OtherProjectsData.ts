@@ -110,8 +110,9 @@ export default new ProjectDataCollection([
       However, many other builds instead focus solely on dealing damage/getting kills constantly in order to activate other skills.
       The problem arises when player 1 is attempting to take an enemy hostage (and the enemy is in the surrendering process) but then
       player 2 charges in, dual-wielding SMGs, kills that surrendering enemy, refuses to elaborate, and runs off.
-      Thus, player 1 naturally complains about it, but gets swarmed by enemies and dies mid-message.<br/>
-      <i>Wow, Rude!</i> solves this problem by automating the complaining process - leaving a complaint in chat automatically when someone kills your hostages.
+      Thus, player 1 naturally complains about it in chat, but gets swarmed by enemies and dies whilst typing their message.<br/>
+      <i>Wow, Rude!</i> solves this problem by automating the complaining process
+      - leaving a complaint in chat automatically when someone kills a hostage or a surrendering enemy.
     </div>
 
     <div class="paragraph">
@@ -153,7 +154,7 @@ export default new ProjectDataCollection([
       This prompted me to <a href="https://github.com/11BelowStudio/PD2AutoUpdateExample" target="_blank">produce a fork of this workflow</a>
       - this time, using version numbers instead of an automatic hash - and update <i>Wow, Rude!</i> to use this workflow instead.
       This solved the problem with users having their customizations undone by an overzealous automatic updater - instead only getting notified
-      about <i>actual</i> updates (which, unfortunately, will once again overwrite the customizations after installing the update). 
+      about <i>actual</i> updates. 
     </div>
 
     <div>
