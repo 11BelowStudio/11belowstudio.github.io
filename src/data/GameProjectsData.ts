@@ -122,6 +122,15 @@ export default new ProjectDataCollection([
       </ul>
     </div>
 
+    <div class="paragraph center">
+      <img class="pc-screenshot pc-screenshot-third" src="img/projects/crabfight/crabfight-1.png" alt="" />
+      <img class="pc-screenshot pc-screenshot-third" src="img/projects/crabfight/crabfight-2.png" alt="" />
+      <img class="pc-screenshot pc-screenshot-third" src="img/projects/crabfight/crabfight-3.png" alt="" />
+      <img class="pc-screenshot pc-screenshot-third" src="img/projects/crabfight/crabfight-4.png" alt="" />
+      <img class="pc-screenshot pc-screenshot-third" src="img/projects/crabfight/crabfight-5.png" alt="" />
+      <img class="pc-screenshot pc-screenshot-third" src="img/projects/crabfight/crabfight-6.png" alt="" />
+    </div>
+
     <div class="paragraph">
       This project was a continuation of an existing partnership between Natural England and the University of Essex regarding ongoing
       conservation efforts in the <a href="https://publications.naturalengland.org.uk/publication/4884193307000832" target="_blank">Cromer Shoal MCZ</a>,
@@ -169,6 +178,15 @@ export default new ProjectDataCollection([
         <li>Has edutainment elements without devolving into mindless tedium.</li>
         <li>Cross-platform multiplayer</li>
       </ul>
+    </div>
+
+    <div class="paragraph center">
+      <img class="pc-screenshot pc-screenshot-third" src="img/projects/crabfind/CrabFind-1.png" alt="Klutzy says hello to Pinchy" />
+      <img class="pc-screenshot pc-screenshot-third" src="img/projects/crabfind/CrabFind-2.png" alt="I wonder what these cryptic clues are talking about..." />
+      <img class="pc-screenshot pc-screenshot-third" src="img/projects/crabfind/CrabFind-3.png" alt="Pinchy is approaching something" />
+      <img class="pc-screenshot pc-screenshot-third" src="img/projects/crabfind/CrabFind-4.png" alt="And the answer was..." />
+      <img class="pc-screenshot pc-screenshot-third" src="img/projects/crabfind/CrabFind-5.png" alt="A screenshot of the between rounds scoreboard" />
+      <img class="pc-screenshot pc-screenshot-third" src="img/projects/crabfind/CrabFind-6.png" alt="Klutzy found the answer (different round)" />
     </div>
 
     <div class="paragraph">
