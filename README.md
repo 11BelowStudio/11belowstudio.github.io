@@ -1,4 +1,15 @@
-# What is this ?
+# 11belowstudio.github.io
+
+My portfolio website.
+
+Based on this portfolio template: https://github.com/schouffy/gamedev-portfolio
+
+Deployed at https://11belowstudio.github.io
+
+Original readme info below.
+
+---
+
 This is a portfolio template that you can use to showcase your work, especially if it's comprised of projects that should be shown in a very visual way.
 
 Looking for a game developer job, I needed a portfolio to present my work to recruiters. I found a lot of custom made portfolios, but no easy to use template unless I used Wordpress. Which was overkill to me because a static HTML/JS website would do fine.
@@ -8,7 +19,7 @@ So i created my own using VueJS, keeping in mind that I wanted it to be easily c
 For a real world use case, check my portfolio: https://scheefer.me
 
 
-# How to use
+## How to use
 
 1. Install
 
@@ -38,7 +49,7 @@ For a real world use case, check my portfolio: https://scheefer.me
     - Check this example if you want to deploy to GitHub pages or some other major static content host: https://vitejs.dev/guide/static-deploy.html
 
 
-# License
+## License
 
 This is GNU LGPL, check the LICENSE file.
 
