@@ -1,0 +1,129 @@
+.dialog-content {
+
+    // Add custom styles for your projects descriptions here
+
+    .paragraph {
+        margin: 20px 0px;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    iframe.youtube {
+        width: 100%;
+        min-height: 300px;
+    }
+
+    .phone-screenshot {
+        width: 100%;
+    }
+
+    .pc-screenshot {
+        width: 100%;
+    }
+
+    .notice {
+        border:1px solid rgb(0, 85, 0);
+        background-color: rgb(144, 196, 144);
+        color: rgb(1, 99, 1);
+        padding: 10px;
+    }
+
+    .notice-container {
+        /* use with notice on notice divs holding text content and itch embed */
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items:center;
+        text-align:left;
+        justify-content:center;
+    }
+
+    .notice-text-square {
+        /* within notice notice-container, for div holding the text, next to the square itch.io download embed. */
+        float:left;
+        flex: 75%;
+        order: 1;
+    }
+
+    .notice-itch-square {
+        /* within notice notice-container, for div holding the square itch.io download embed. */
+        float:right;
+        flex: 25%;
+        order: 2;
+    }
+
+    @media (max-width: 850px) {
+        .notice-text-square, .notice-itch-square {
+            flex: 100%;
+        }
+    }
+
+    a {
+        color:#696969;
+        opacity: 1;
+        text-decoration: underline;
+    }
+    
+    a:hover {
+        opacity: 0.6;
+    }
+
+
+    .hide {
+        display: none;
+    }
+
+    .opposite-hide {
+        display: inline;
+    }
+
+    .reveal {
+        text-decoration: underline dotted;
+    }
+
+    .reveal:hover{
+        text-decoration: inherit;
+    }
+
+    .reveal:hover > .hide {
+        display: inline;
+        height: 90%;
+    }
+
+    .reveal:hover > .opposite-hide {
+        display: none;
+    }
+
+    .features-list{
+        margin-top: 0px;
+    }      
+
+    @media only screen and (min-width: 620px){
+        iframe.youtube {
+            max-width: 728px;
+            height: 409px;
+        }
+
+        .phone-screenshot {
+            margin: 10px;
+            width : 300px;
+        }
+    
+        .pc-screenshot {
+            margin: 10px;
+            width: 400px;
+        }
+
+        .pc-screenshot.pc-screenshot-third {
+            margin: 1.5%;
+            width: 30%;
+        }
+
+        .pc-screenshot.pc-screenshot-half {
+            margin: 10px;
+            width: 200px;
+        }
+    }
+}
