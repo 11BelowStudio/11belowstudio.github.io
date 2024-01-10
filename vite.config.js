@@ -28,6 +28,7 @@ export default ({mode}) => {
           javascriptEnabled: true
         }
       }
-    }
+    },
+    base: '/'
   })
 } 
