@@ -2,7 +2,7 @@
   <div>
     <div class="tags-list">
       <template v-for="tag in projects?.tags" :key="tag">
-        <div class="tag-box" @click="onTagClicked(tag)">
+        <div class="tag-box" :class="[isSelectedTag(tag) ? 'tag-box-chosen' : '']" @click="onTagClicked(tag)">
           {{ tag }}
         </div>
       </template>
@@ -56,7 +56,7 @@ export default defineComponent({
       popupTitle: "",
       popupColor: "",
       popupContent: "",
-      tagFilter: ""
+      tagFilter: "All"
     };
   },
   computed : {
@@ -86,6 +86,10 @@ export default defineComponent({
       this.popupContent = item.htmlDescription;
       this.showPopup = true;
       window.scrollTo(0,0);
+    },
+
+    isSelectedTag: function(theTag: string = ""){
+      return (this.tagFilter !== undefined) && (this.tagFilter == theTag);
     },
 
     onTagClicked: function(clickedTag: string = ""){
@@ -156,6 +160,12 @@ filter: brightness(120%);
 	margin: 5px;
   cursor: pointer;
   position: relative;
+}
+
+.tag-box-chosen{
+  border:1px solid rgb(0, 85, 0);
+  background-color: rgb(144, 196, 144);
+  color: rgb(1, 99, 1);
 }
 
 .tag-box:hover{

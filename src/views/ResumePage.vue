@@ -4,8 +4,10 @@
 
     <div class="paragraph">
 
-      <div style=" margin-bottom:10px;">
-        <a class="download-link" href="d/rachel-lowe-cv.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i>Download as PDF (Concise)</a>
+      <div class="notice notice-container" style=" margin-bottom:10px;">
+        <h2 style="padding:5px;">The concise version</h2>
+        <a class="download-link" href="d/rachel-lowe-cv-games.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i>Games CV (PDF)</a>
+        <a class="download-link" href="d/rachel-lowe-cv-generic.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i>Non-games CV (PDF)</a>
         <div style="clear:both"></div>
       </div>
       <p>
@@ -338,6 +340,22 @@ h4 {
 
 .paragraph {
   max-width: 700px;
+}
+
+.notice {
+  border:1px solid hsla(0,0%,86.3%,.44); /*rgb(0, 85, 0);*/
+  /*background-color: rgb(144, 196, 144);
+  color: rgb(1, 99, 1);*/
+  padding: 0px 10px 2.5px 10px ;
+}
+
+.notice-container {
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items:center;
+  text-align:center;
+  justify-content:center;
 }
 
 .download-link {
