@@ -1,4 +1,4 @@
-import { createRouter as _createRouter, createWebHistory } from 'vue-router'
+import { createRouter as _createRouter, createWebHashHistory } from 'vue-router'
 
 // route-level code splitting
 const AboutView = () => import('../views/AboutPage.vue');
@@ -10,7 +10,7 @@ const E404View = () => import('../views/404Page.vue')
 
 export function createRouter(){
   return _createRouter({
-    history: createWebHistory(),
+    history: createWebHashHistory(),
     routes: [
       {
         path: '/',

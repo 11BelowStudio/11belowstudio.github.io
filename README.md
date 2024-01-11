@@ -2,9 +2,23 @@
 
 My portfolio website.
 
-Based on this portfolio template: https://github.com/schouffy/gamedev-portfolio
+Based on this portfolio template: <https://github.com/schouffy/gamedev-portfolio>
 
-Deployed at https://11belowstudio.github.io
+Deployed at <https://11belowstudio.github.io>
+
+
+---
+
+also incorporates <https://github.com/rafgraph/spa-github-pages> to hopefully get it to work on github pages (please work)
+
+---
+
+nb: since amended this deployment following the advice from <https://mkay11.medium.com/how-to-deploy-your-vite-vue-3-application-in-github-pages-2023-2b842f50576a>, using [gh-pages](https://www.npmjs.com/package/gh-pages).
+
+Need to use `npm run deploy` to build the site and then deploy `/dist` folder in `gh-pages` branch.
+
+
+---
 
 Original readme info below.
 
