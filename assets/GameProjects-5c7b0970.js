@@ -1,4 +1,4 @@
-import{P as s,a as e,b as r}from"./ProjectData-9fb2dc66.js";import{f as n,_ as c,r as l,c as h,d,a as t,b as a,o as m}from"./index-228ebd07.js";const p=new s([new e("project-0","Committy","img/projects/committy.png",`
+import{P as s,a as e,b as r}from"./ProjectData-b124c37d.js";import{f as n,_ as c,r as l,c as h,d,a as t,b as a,o as m}from"./index-4831fa34.js";const p=new s([new e("project-0","Committy","img/projects/committy.png",`
     <div class="paragraph">
       <strong>Committy</strong> is a live service travesty of a card game, implemented using Node.js,
       produced for the <a href="https://itch.io/jam/sbigjam2023" target="_blank"><em>'So Bad It's Good' Jam 2023</em></a> (August 2023).

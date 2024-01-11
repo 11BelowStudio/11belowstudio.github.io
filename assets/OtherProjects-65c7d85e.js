@@ -1,4 +1,4 @@
-import{P as s,a as o,b as n}from"./ProjectData-9fb2dc66.js";import{f as r,_ as d,r as l,c,d as h,a as e,b as t,o as p}from"./index-228ebd07.js";const u=new s([new o("project-HECC-IT","HECC-IT (Hypertext Editing and Creation Code Integrated Toolkit)","img/projects/hecc-it.png",`
+import{P as s,a as o,b as n}from"./ProjectData-b124c37d.js";import{f as r,_ as d,r as l,c,d as h,a as e,b as t,o as p}from"./index-4831fa34.js";const u=new s([new o("project-HECC-IT","HECC-IT (Hypertext Editing and Creation Code Integrated Toolkit)","img/projects/hecc-it.png",`
       <div class="paragraph">
         <strong>HECC-IT</strong> <i>(Hypertext Editing and Creation Code Integrated Toolkit)</i> is a hypertext game authoring tool
         for desktop, implemented in Java, producing browser-playable hypertext games (HTML/JS).
