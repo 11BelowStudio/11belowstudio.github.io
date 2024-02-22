@@ -21,7 +21,7 @@
     -->
       <li>
         <i class="fa fa-linkedin fa-lg fa-fw" style="vertical-align: -5%;"></i>
-        <a href="https://www.linkedin.com/rachel-m-lowe" target="_blank">linkedin.com/rachel-m-lowe</a>
+        <a href="https://www.linkedin.com/in/rachel-m-lowe" target="_blank">linkedin.com/in/rachel-m-lowe</a>
       </li>
       <li>
         <i class="fa fa-github fa-lg fa-fw"></i>
