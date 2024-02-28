@@ -5,7 +5,7 @@ export default new ProjectDataCollection([
 
 
   new ProjectData(
-    "project-5",
+    "feathersword",
     "Feathersword's Revenge",
     "img/projects/feathersword-icon.gif",
     `
@@ -109,7 +109,7 @@ export default new ProjectDataCollection([
   ),
 
   new ProjectData(
-    "project-0",
+    "committy",
     "Committy",
     "img/projects/committy.png",
     `
@@ -184,7 +184,7 @@ export default new ProjectDataCollection([
   ),
 
   new ProjectData(
-    "project-1",
+    "crabfight",
     "CrabFight (CLAWS)",
     "img/projects/crabfight-icon.png",
     `
@@ -196,9 +196,10 @@ export default new ProjectDataCollection([
       <br/>
       <cite>CrabFight</cite> was originally developed as my MSc thesis project, but I have been employed to develop it further for Natural England,
       under the title of <strong>CLAWS</strong> - which has been successfully
-      demonstrated to the general public at <a href="https://twitter.com/NENorfolkSufflk/status/1626503567224844288" target="_blank">several</a> 
-      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7076120167096672256/" target="_blank">public</a> 
-      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7114586412238135296/" target="_blank">events</a>.
+      demonstrated to the general public at <a href="https://twitter.com/NENorfolkSufflk/status/1626503567224844288" target="_blank">at</a> 
+      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7076120167096672256/" target="_blank">several</a> 
+      <a href="https://www.linkedin.com/feed/update/urn:li:activity:7114586412238135296/" target="_blank">public</a>
+      <a href="https://www.instagram.com/nenorfolksuffolk/p/C3zmyPJsRDO/" target="_blank">events</a>.
     </div>
 
     <div class="paragraph">
@@ -207,7 +208,7 @@ export default new ProjectDataCollection([
           <cite>CrabFight</cite> is available on <a href="https://11belowstudio.itch.io/crabfight" target="_blank">itch.io</a>,
           for Windows, Linux, and Android.<br/>
           Peer-to-peer cross-platform multiplayer support.<br/>
-          Alternatively, keep an eye on <a href="https://twitter.com/NENorfolkSufflk/status/1705870869996740726" target="_blank">Natural England's social media</a>
+          Alternatively, keep an eye on <a href="https://www.instagram.com/nenorfolksuffolk/p/C3R-fyns97x" target="_blank">Natural England's social media</a>
           for any future public events where you can play <strong>CLAWS</strong> with other people IRL!
         </div>
         <div class="notice-itch-square">
@@ -262,7 +263,7 @@ export default new ProjectDataCollection([
   ),
 
   new ProjectData(
-    "project-2",
+    "crabfind",
     "CrabFind",
     "img/projects/crabfind-icon.png",
     `
@@ -328,7 +329,7 @@ export default new ProjectDataCollection([
   ),
 
   new ProjectData(
-    "project-3",
+    "kevin-tortoise",
     "One Unspecified Period Of Time At Kevin's",
     "img/projects/kevin-icon.png",
     `
@@ -413,7 +414,7 @@ export default new ProjectDataCollection([
   ),
 
   new ProjectData(
-    "project-4",
+    "spacetow",
     "A Scientific Interpretation of Daily Life in the Space Towing Industry (Circa 3052 CE)",
     "img/projects/spacetow-icon.gif",
     `

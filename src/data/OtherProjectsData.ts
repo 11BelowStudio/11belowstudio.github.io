@@ -4,7 +4,7 @@ import ProjectDataCollection from '@/data/ProjectDataCollection';
 export default new ProjectDataCollection([
 
   new ProjectData(
-    "project-HECC-IT",
+    "hecc-it",
     "HECC-IT (Hypertext Editing and Creation Code Integrated Toolkit)",
     "img/projects/hecc-it.png",
     `
