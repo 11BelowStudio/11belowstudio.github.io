@@ -3,6 +3,77 @@ import ProjectDataCollection from '@/data/ProjectDataCollection';
 
 export default new ProjectDataCollection([
 
+  new ProjectData(
+    "flypost",
+    "Flypost",
+    "img/projects/flypost-icon.gif",
+    `
+    <div class="paragraph">
+      <p><strong>Flypost</strong> is a game I made in Godot (for PC and web) for the <a href="https://itch.io/jam/sbigjam2024" target="_blank"><i>So Bad It's Good Jam 2024</i></a>, with the theme of <i>Excessive Sound Design</i>.<br/>
+      This was also my first time using Godot for anything, and I think it went rather well. <a href="https://itch.io/jam/sbigjam2024/rate/2816729" target="_blank">This entry</a> came in 7th place overall in the jam (out of 86 entries) - doubleplusgood!</p>
+      
+      <p>As the name implies, it's about flyposting (the act of putting up stickers outside) - albeit with a hefty dose of 1984-inspired dystopian goodthinkfulness.
+      It was loosely inspired by some flyposting I noticed due to the general election (which happened on the same week as the jam),
+      and an overall aim of wanting the player to feel overimmersed to the point of sensory overload.</p>
+    </div>
+
+    <div class="paragraph">
+      <div class="notice notice-container">
+        <div class="notice-text-square">
+          <cite>Flypost</cite> is available to download for free on <a href="https://11belowstudio.itch.io/flypost" target="_blank">itch.io</a>.<br/>
+          It's downloadable for Windows and Linux, but it can also be played via browser.<br/>
+          Source code can be seen <a href="https://github.com/11BelowStudio/sbig2024-gd" target="_blank">on github</a>.<br/>
+          The (fly)postmortem can also be <a href="https://11belowstudio.itch.io/flypost/devlog/781395/flypostmortem" target="_blank">read on itch.io</a>.
+        </div>
+        <div class="notice-itch-square">
+          <iframe frameborder="0" src="https://itch.io/embed/2816729?bg_color=222222&amp;fg_color=F0E6E6&amp;link_color=cf0000&amp;border_color=363636" width="100%" height="167">
+          <a href="https://11belowstudio.itch.io/flypost">Flypost by 11BelowStudio, Virety Rammithel, DELTA100</a></iframe>
+          </iframe>
+        </div>
+      </div>
+    </div>
+
+    <div class="paragraph">
+      Main features:
+      <ul class="features-list">
+        <li>Very immersive audiovisual design!</li>
+        <li>Semi-intelligent AI enemies!</li>
+        <li>Narrative experience with quite a bit of worldbuilding</li>
+      </ul>
+    </div>
+
+    <div class="paragraph center">
+      <img class="pc-screenshot" src="img/projects/flypost/flypost-1.png" alt="Your home" />
+      <img class="pc-screenshot" src="img/projects/flypost/flypost-2.png" alt="Before the crime" />
+      <img class="pc-screenshot" src="img/projects/flypost/flypost-3.png" alt="Considering the gravity of one's actions" />
+    </div>
+
+    <div class="paragraph">
+    <p><cite>Flypost</cite> wasn't entirely a solo project.
+    My brother was responsible for the 3D models (and their textures), and another friend helped me with some of the voice acting
+    (I also used some pre-made templates/audio to help get the ball rolling).
+    However, I put my heart and soul into the game to deliver a cohesive ludonarrative experience, and I think the effort paid off.</p>
+
+    <p><cite>Flypost</cite> could probably be described as some variety of comedic horror game.
+    There's no explicit horror (no sp00ky scary skeletons or anything like that, and many details are intentionally left vague to not detract from the experience),
+    but there's enough of a buildup of tension where it counts for the eventual payoff to hit when it does.</p>
+
+    <p>This was probably my most ambitious project in terms of overall scope,
+    even though some content needed to be cut due to time constraints.
+    The finished product didn't deviate very far from the intended experience,
+    albeit with a few adjustments to make it more fun to play.</p>
+
+    <p>This has also shown me that Godot is a pretty nice game engine.
+    Sure, it took me a moment to wrap my head around the differences between Godot and Unity, especially with how node trees work differently.
+    However, I was able to wrap my head around it, and I now feel comfortable using Godot as well as Unity</p>
+    </div>
+    `,
+    "#cf0000",
+    false,
+    false,
+    ["Godot","browser","PC","game jam","gdscript","horror"]
+  ),
+
 
   new ProjectData(
     "feathersword",
