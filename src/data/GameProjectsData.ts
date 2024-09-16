@@ -71,7 +71,7 @@ export default new ProjectDataCollection([
     "#cf0000",
     false,
     false,
-    ["godot","browser","PC","game jam","gdscript"]
+    ["Godot","browser","PC","game jam","gdscript"]
   ),
 
 
