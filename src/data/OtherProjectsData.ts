@@ -3,6 +3,85 @@ import ProjectDataCollection from '@/data/ProjectDataCollection';
 
 export default new ProjectDataCollection([
 
+
+  new ProjectData(
+    "MUDKIP_Mud2",
+    "MUDKIP_Mud2 (Multi User Dungeon Kool Informational Package for MUD2)",
+    "img/projects/mudkip_mud2.png",
+    `
+    <div class="paragraph">
+      <p>Yes, I'm the sort of gal who unironically plays <cite><a href="http://www.mudii.co.uk" target="_blank">MUD2</a></cite> (1985) in Current Year.
+      And, with these text-based Multi-User Dungeons, there's always the question of 'what client should I use?'.
+      There are quite a few clients out there for <cite>MUD2</cite> -
+      however, many of them haven't been updated in A Very Long Time, and aren't that well-known.
+      I've generally been a <cite><a href="https://mudlet.org" target="_blank">Mudlet</a></cite>
+      user myself - but there was the slight problem of <cite>Mudlet</cite> not having any <cite>MUD2</cite>-specific functionality.</p>
+
+      <p>A problem which I decided to solve, via the creation of <strong>MUDKIP_Mud2</strong> <i>(Multi-User Dungeon Kool Informational Package for MUD2)</i> -
+      a <cite>Mudlet</cite> package which adds some much-needed <cite>MUD2</cite>-specific functionality, to greatly improve QoL when playing it.
+      </p>
+    </div>
+
+    <div class="paragraph">
+        <div class="notice notice-container">
+          <div class="notice-text">
+          You can install <cite>MUDKIP_Mud2</cite> within <cite>Mudlet</cite> via using the command <code>lua installPackage("https://github.com/11BelowStudio/MUDKIP_Mud2/releases/latest/download/MUDKIP_Mud2.mpackage")</code> (in <cite>Mudlet</cite> itself).<br/>
+          For further information, check out <a href="https://github.com/11BelowStudio/MUDKIP_Mud2" target="_blank">the git repository</a>.
+          </div>
+        </div>
+    </div>
+
+    <div class="paragraph">
+        Main features:
+        <ul class="features-list">
+          <li>
+            Contains <i>Kool Informational Panels</i> to show you the current stats of your persona at a glance, and keeps these stats up-to-date whenever anything happens!
+          </li>
+          <li>
+            Has an auto-update system, automatically checking for and downloading new updates to the package whenever they're released, facilitated via a github actions workflow I put together!
+          </li>
+          <li>
+            Various QoL features, including an enhanced output for the <code>map</code> command, several aliases to simplify/correct certain inputs, and retains all the functionality of <cite>Mudlet</cite>
+          </li>
+        </ul>
+    </div>
+
+    <div class="paragraph center">
+        <img class="pc-screenshot" src="/img/projects/mudkip_mud2.png" alt="A screenshot of MUDKIP_Mud2 in use" />
+    </div>
+
+    <div class="paragraph">
+    <p><cite>MUDKIP_Mud2</cite>, like any other <cite>Mudlet</cite> package, was implemented using Lua
+    (applying the skills I gained when I used to faff around with mods for <cite>Payday 2</cite>).<br/>
+    I used the <cite><a href="https://github.com/demonnic/muddler" target="_blank">Muddler</a></cite> tool to handle building it into a package
+    (rather than making it directly within <cite>Mudlet</cite>), in order to facilitate the use of GitHub for version control,
+    and to use GitHub Actions to streamline the building and release of new updates.</p>
+    
+    <p><cite>MUDKIP_Mud2</cite>'s main selling points are the <i>Kool Informational Panels</i> it adds to the top and bottom of the screen,
+    along with the fact that it updates itself automatically.</p>
+
+    <p>These <i>Kool Informational Panels</i> show you the current stats of your persona at a glance
+    (showing just how close your persona may be to dying/losing all magic, without needing to scroll up a bit or use <code>qs</code> to manually re-check your stats),
+    and they provide some other useful info too (time until next reset, dreamword, the weather, afflictions, etc).
+    These stats are also updated automatically whilst playing the game, to keep this information fresh.</p>
+    
+    <p><cite>MUDKIP_Mud2</cite> also provides some quality-of-life features too.
+    For example, it makes the output of the <code>map</code> command a bit more concise and also clickable, to make it a bit less useless.
+    It even adds some macro commands, such as <code>dword</code> to say the current dreamword (if known), along with some autocorrection for certain emotes in-game.</p>
+
+    <p>Users of <cite>MUDKIP_Mud2</cite> have given positive feedback on it, and appreciate it for what it is.
+    It might not be as fast as <cite><a href="https://www.wabe.org.uk/clio/" target="_blank">Clio</a></cite>, as clickable as <cite>Umbraug's client</cite>,
+    or as generally well-established as <a href="http://www.mudii.co.uk/links.php" target="_blank">many of the other clients for <cite>MUD2</cite> out there</a> - but, it's a perfectly adequate,
+    suitably user-friendly, multi-OS client for anyone else who may want to venture into <cite>MUD2</cite> in this day and age.</p>
+    </div>
+        
+`,
+    "#007EB1",
+    false,
+    false,
+    ["Lua"]
+  ),
+
   new ProjectData(
     "hecc-it",
     "HECC-IT (Hypertext Editing and Creation Code Integrated Toolkit)",

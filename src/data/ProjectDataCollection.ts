@@ -15,11 +15,19 @@ export default class ProjectDataCollection {
      */
     constructor(_projects: ProjectData[] = []){
         this.projects = _projects;
-        this.tags = new Set<string>([ALL]);
+
+        const unsortedTags = new Set<string>();
+        
         _projects.forEach(proj => {
-            // adding project tags to tags set
-            proj.tags.forEach(this.tags.add, this.tags);
+            // adding project tags to unsortedTags set
+            proj.tags.forEach(unsortedTags.add, unsortedTags);
         });
+        
+        // make this.tags a set beginning with 'All'
+        // followed by all the previously-established unsortedTags now sorted alphabetically (case-insensitively)
+        this.tags = new Set<string>([ALL].concat(
+            Array.from(unsortedTags).sort((a,b) => a.localeCompare(b))
+        ));
     }
 
     /**

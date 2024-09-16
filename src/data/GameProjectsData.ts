@@ -9,11 +9,11 @@ export default new ProjectDataCollection([
     "img/projects/flypost-icon.gif",
     `
     <div class="paragraph">
-      <p><strong>Flypost</strong> is a game I made in Godot (for PC and web) for the <i>So Bad It's Good Jam 2024</i>, the theme of which being <i>Excessive Sound Design</i><br/>
-      This was also my first time using Godot for anything, and I think it went rather well. It also came in 7th place overall in the jam (out of 86 entries) - doubleplusgood!</p>
+      <p><strong>Flypost</strong> is a game I made in Godot (for PC and web) for the <a href="https://itch.io/jam/sbigjam2024" target="_blank"><i>So Bad It's Good Jam 2024</i></a>, with the theme of <i>Excessive Sound Design</i>.<br/>
+      This was also my first time using Godot for anything, and I think it went rather well. <a href="https://itch.io/jam/sbigjam2024/rate/2816729" target="_blank">This entry</a> came in 7th place overall in the jam (out of 86 entries) - doubleplusgood!</p>
       
       <p>As the name implies, it's about flyposting (the act of putting up stickers outside) - albeit with a hefty dose of 1984-inspired dystopian goodthinkfulness.
-      It was loosely inspired by the ongoing general election (which was scheduled for the same week),
+      It was loosely inspired by some flyposting I noticed due to the general election (which happened on the same week as the jam),
       and an overall aim of wanting the player to feel overimmersed to the point of sensory overload.</p>
     </div>
 
@@ -71,7 +71,7 @@ export default new ProjectDataCollection([
     "#cf0000",
     false,
     false,
-    ["Godot","browser","PC","game jam","gdscript"]
+    ["Godot","browser","PC","game jam","gdscript","horror"]
   ),
 
 
