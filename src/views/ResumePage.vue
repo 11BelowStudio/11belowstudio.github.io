@@ -130,6 +130,7 @@
         <div class="skill">Audacity</div>
         <div class="skill">Blender</div>
         <div class="skill">Unity Gaming Services</div>
+        <div class="skill">Godot</div>
       </div>
 
       <div class="skill-set">
@@ -204,7 +205,7 @@
 
       <h2 id="Volunteering">Volunteering</h2>
       
-      <h3>Digital Buddy - Staines Library</h3>
+      <h3>Digital Support Volunteer - Staines Library</h3>
       <h4>January 2023 - present</h4>
       <div>
         <p>

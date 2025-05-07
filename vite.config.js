@@ -14,6 +14,9 @@ export default ({mode}) => {
     plugins: [
       vue()
     ],
+    server: {
+      port: 3000,
+    },
     resolve: {
       alias: [
         // thanks to https://stackoverflow.com/a/67676242/22296059 :)
