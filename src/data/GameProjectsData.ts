@@ -41,6 +41,13 @@ export default new ProjectDataCollection([
       </ul>
     </div>
     
+    <p>The main reason for creating this game was because, for a rather long time, I've been looking for
+    an excuse to try making a <cite>WarioWare</cite>-style game myself; this jam theme finally provided
+    the right flash of inspiration to create such a game. Furthermore, the way in which the Godot engine
+    permits structures of nested scenes was <i>very</i> useful for setting up the overall game system -
+    with individual microgames as packed scenes loaded into a 'game runner' scene (outcomes reported
+    via signals).</p>
+    
     <!--div class="paragraph"><p>The development process of <cite>Burstworks</cite> went through several iterations of initial game ideas.
     After a few attempts of coming up with an idea, making a barebones prototype, realising they weren't that fun,
     and finding a better idea, the final concept hit me in a burst of inspiration from out of nowhere.
@@ -115,9 +122,10 @@ export default new ProjectDataCollection([
     </div>
 
     <div class="paragraph center">
-      <img class="pc-screenshot" src="img/projects/flypost/flypost-1.png" alt="Your home" />
-      <img class="pc-screenshot" src="img/projects/flypost/flypost-2.png" alt="Before the crime" />
-      <img class="pc-screenshot" src="img/projects/flypost/flypost-3.png" alt="Considering the gravity of one's actions" />
+      <img class="pc-screenshot" src="img/projects/boss/boss-whoops.png" alt="Wait that's not meant to happen" />
+      <img class="pc-screenshot" src="img/projects/boss/boss-monitor.png" alt="Oh." />
+      <img class="pc-screenshot" src="img/projects/boss/boss-incoming.png" alt="OH NO." />
+      <img class="pc-screenshot" src="img/projects/boss/boss-hmm.png" alt="hmm." />
     </div>
 
     <div class="paragraph">
@@ -405,7 +413,7 @@ export default new ProjectDataCollection([
     "img/projects/committy.png",
     `
     <div class="paragraph">
-      <strong>Committy</strong> is a live service travesty of a card game, implemented using Node.js,
+      <strong>Committy</strong> was a live service travesty of a card game, implemented using Node.js,
       produced for the <a href="https://itch.io/jam/sbigjam2023" target="_blank"><em>'So Bad It's Good' Jam 2023</em></a> (August 2023).
       <br/>The theme for the jam this year was <cite>Every Suggestion Combined</cite>,
       so I decided to take the theme in a completely tangental direction,
@@ -448,7 +456,7 @@ export default new ProjectDataCollection([
     <div class="paragraph">
       <cite>Committy</cite> had a mildly eventful development cycle. Due to family reasons (omitted here),
       I knew that I wouldn't have as much time to work on the game as I would have wanted, so I had to keep the scope
-      somewhat restrained (leading to the tangental interpretation of <cite>Every Suggestion Combined</cite>,
+      somewhat restrained (leading to the tangential interpretation of <cite>Every Suggestion Combined</cite>,
       in the form of a game which would appear to have been 'designed by committee' - hence the name).
       <br/>The core ideas of 'user-created cards', 'players must select the objectively superior card',
       and 'a third party must be the ultimate arbitrator of what qualifies as "objectively superior"'
@@ -605,7 +613,7 @@ export default new ProjectDataCollection([
       and make them more traversable without completely mangling the meshes beyond all recognition.<br/>
       For the artefacts - I was granted permission to use the
       <a href="https://www.imuseum.im/hms-racehorse/" target="_blank">Isle of Man Museum collection</a> - however,
-      these are all 2D photographs. In order to make them work in the 3D environments,
+      these are all 2D photographs. To make them work in the 3D environments,
       I opted to improvise by using billboarding - which also helped to make them stand out in the environments.<br/>
       Finally, the overarching development cycle - Whilst I did have <cite>CrabFight</cite>
       as a basis (meaning that I didn't need to rewrite the whole main menu and backend-y multiplayer management components),
