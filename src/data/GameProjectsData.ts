@@ -167,7 +167,7 @@ export default new ProjectDataCollection([
   new ProjectData(
       "burstworks",
       "Burstworks",
-      "img/projects/burstworks-icon.png",
+      "img/projects/burstworks/icon.png",
       `
     <div class="paragraph">
       <p><strong>Burstworks</strong> was created for the 2025 Global Game Jam, the theme which being "bubble" - naturally
@@ -235,7 +235,7 @@ export default new ProjectDataCollection([
   new ProjectData(
     "flypost",
     "Flypost",
-    "img/projects/flypost-icon.gif",
+    "img/projects/flypost/flypost-icon.gif",
     `
     <div class="paragraph">
       <p><strong>Flypost</strong> is a game I made in Godot (for PC and web) for the <a href="https://itch.io/jam/sbigjam2024" target="_blank"><i>So Bad It's Good Jam 2024</i></a>, with the theme of <i>Excessive Sound Design</i>.<br/>
@@ -307,7 +307,7 @@ export default new ProjectDataCollection([
   new ProjectData(
     "feathersword",
     "Feathersword's Revenge",
-    "img/projects/feathersword-icon.gif",
+    "img/projects/feathersword/feathersword-icon.gif",
     `
     <div class="paragraph">
       <strong>Feathersword's Revenge</strong>
@@ -410,13 +410,13 @@ export default new ProjectDataCollection([
   new ProjectData(
     "committy",
     "Committy",
-    "img/projects/committy.png",
+    "img/projects/committy/committy-square.svg",
     `
     <div class="paragraph">
       <strong>Committy</strong> was a live service travesty of a card game, implemented using Node.js,
       produced for the <a href="https://itch.io/jam/sbigjam2023" target="_blank"><em>'So Bad It's Good' Jam 2023</em></a> (August 2023).
       <br/>The theme for the jam this year was <cite>Every Suggestion Combined</cite>,
-      so I decided to take the theme in a completely tangental direction,
+      so I decided to take the theme in a completely tangential direction,
       by creating a simple card game intended to be the <i>sum of everyone's suggestions</i> in card game form.
       In other words - every single card is a user contribution, and the interactions between them are determined via precedent,
       whilst going for an overall feeling of being 'designed by committee' (hence the name).
@@ -485,7 +485,7 @@ export default new ProjectDataCollection([
   new ProjectData(
     "crabfight",
     "CrabFight (CLAWS)",
-    "img/projects/crabfight-icon.png",
+    "img/projects/crabfight/crabfight-icon.png",
     `
     <div class="paragraph">
       <strong>CrabFight</strong> is a cross-platform online multiplayer crab simulator for Windows, Linux, and Android (developed using Unity).
@@ -564,7 +564,7 @@ export default new ProjectDataCollection([
   new ProjectData(
     "crabfind",
     "CrabFind",
-    "img/projects/crabfind-icon.png",
+    "img/projects/crabfind/crabfind-icon.png",
     `
     <div class="paragraph">
       <strong>CrabFind</strong> is a cross-platform multiplayer edutainment game for Windows, Linux, and Android (developed in Unity).
@@ -630,7 +630,7 @@ export default new ProjectDataCollection([
   new ProjectData(
     "kevin-tortoise",
     "One Unspecified Period Of Time At Kevin's",
-    "img/projects/kevin-icon.png",
+    "img/projects/kevin-tortoise/kevin-icon.png",
     `
     <div class="paragraph">
       <strong>One Unspecified Period Of Time At Kevin's Contrived Plot Device Of A Tortoise Sanctuary (Very Scary!)</strong>
@@ -715,7 +715,7 @@ export default new ProjectDataCollection([
   new ProjectData(
     "spacetow",
     "A Scientific Interpretation of Daily Life in the Space Towing Industry (Circa 3052 CE)",
-    "img/projects/spacetow-icon.gif",
+    "img/projects/spacetow/spacetow-icon.gif",
     `
     <div class="paragraph">
       <strong>A Scientific Interpretation of Daily Life in the Space Towing Industry (Circa 3052 CE)</strong> is a relatively simple
@@ -751,7 +751,7 @@ export default new ProjectDataCollection([
     </div>
 
     <div class="paragraph center">
-      <img class="pc-screenshot" src="/img/projects/spacetow-icon.gif" alt="Ordinary physics moment" />
+      <img class="pc-screenshot" src="/img/projects/spacetow/spacetow-icon.gif" alt="Ordinary physics moment" />
     </div>
 
     <div class="paragraph">
