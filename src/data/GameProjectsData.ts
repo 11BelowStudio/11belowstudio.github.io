@@ -21,8 +21,9 @@ export default new ProjectDataCollection([
       <div class="notice notice-container">
         <div class="notice-text-square">
           <cite>BaneWare</cite> is available for free on <a href="https://11belowstudio.itch.io/baneware" target="_blank">itch.io</a>.<br/>
-          It can be played via browser, or downloaded for Windows and Linux.<br/>
+          It can be played via browser (works on mobile), or downloaded for Windows and Linux.<br/>
           Archival footage of the development process can be seen <a href="https://youtube.com/playlist?list=PL5rXQnjNhxts5ZQz5gSKq3n9ZApu4pIrx">on this playlist</a>.
+          The Global Game Jam submission page is <a href="https://globalgamejam.org/games/2026/planesceneware-7" target="_blank">here</a>.
         </div>
         <div class="notice-itch-square">
           <iframe frameborder="0" src="https://itch.io/embed/4244854?linkback=true&amp;border_width=2&amp;bg_color=000000&amp;fg_color=ffffff&amp;link_color=0484d1&amp;border_color=000000" width="100%" height="169">
@@ -184,7 +185,8 @@ export default new ProjectDataCollection([
         <div class="notice-text-square">
           <cite>Burstworks</cite> is available for free on <a href="https://11belowstudio.itch.io/burstworks" target="_blank">itch.io</a>.<br/>
           It can be played via browser, or downloaded for Windows and Linux.<br/>
-          archival footage of the development process can be seen <a href="https://youtube.com/playlist?list=PL5rXQnjNhxts5ZQz5gSKq3n9ZApu4pIrx">on this playlist</a>.
+          Archival footage of the development process can be seen <a href="https://youtube.com/playlist?list=PL5rXQnjNhxts5ZQz5gSKq3n9ZApu4pIrx">on this playlist</a>.
+          The Global Game Jam submission page is <a href="https://globalgamejam.org/games/2025/burstworks-5" target="_blank">here</a>.
         </div>
         <div class="notice-itch-square">
           <iframe frameborder="0" src="https://itch.io/embed/3273783?linkback=true&amp;border_width=2&amp;bg_color=000000&amp;fg_color=ffffff&amp;link_color=0484d1&amp;border_color=000000" width="100%" height="169">
@@ -425,13 +427,13 @@ export default new ProjectDataCollection([
     <div class="paragraph">
       <div class="notice notice-container">
         <div class="notice-text-square">
-          <cite>Committy</cite> is playable via browser, on <a href="https://committy.mxtappz.net" target="_blank">committy.mxtappz.net</a>.<br/>
-          Source code is available on <a href="https://github.com/11BelowStudio/sbig2023-committy" target="_blank">GitHub</a>.<br/>
+          <cite>Committy</cite> is, unfortunately, no longer playable, due to a lack of a host server (as is tradition for live services).<br/>
+          Source code is available on <a href="https://github.com/11BelowStudio/sbig2023-committy" target="_blank">GitHub</a>, for any who may wish to revive it.<br/>
           The jam submission page for <cite>Committy</cite> can be seen <a href="https://itch.io/jam/sbigjam2023/rate/2204456" target="_blank">here</a>.
         </div>
         <div class="notice-itch-square">
           <iframe frameborder="0" src="https://itch.io/embed/2204456?linkback=true&amp;dark=true" width="100%" height="167">
-            <a href="https://11belowstudio.itch.io/committy" target="_blank">Committy! by 11BelowStudio</a>
+            <a href="https://11belowstudio.itch.io/committy" target="_blank">Committy! by 11BelowStudio, DELTA100</a>
           </iframe>
         </div>
       </div>

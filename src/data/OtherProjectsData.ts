@@ -7,7 +7,7 @@ export default new ProjectDataCollection([
   new ProjectData(
     "MUDKIP_Mud2",
     "MUDKIP_Mud2 (Multi User Dungeon Kool Informational Package for MUD2)",
-    "img/projects/mudkip_mud2.png",
+    "img/projects/mudkip/mudkip_mud2.png",
     `
     <div class="paragraph">
       <p>Yes, I'm the sort of gal who unironically plays <cite><a href="http://www.mudii.co.uk" target="_blank">MUD2</a></cite> (1985) in Current Year.
@@ -47,7 +47,7 @@ export default new ProjectDataCollection([
     </div>
 
     <div class="paragraph center">
-        <img class="pc-screenshot" src="/img/projects/mudkip_mud2.png" alt="A screenshot of MUDKIP_Mud2 in use" />
+        <img class="pc-screenshot" src="/img/projects/mudkip/mudkip_mud2.png" alt="A screenshot of MUDKIP_Mud2 in use" />
     </div>
 
     <div class="paragraph">
@@ -85,7 +85,7 @@ export default new ProjectDataCollection([
   new ProjectData(
     "hecc-it",
     "HECC-IT (Hypertext Editing and Creation Code Integrated Toolkit)",
-    "img/projects/hecc-it.png",
+    "img/projects/hecc-it/hecc-it.png",
     `
       <div class="paragraph">
         <strong>HECC-IT</strong> <i>(Hypertext Editing and Creation Code Integrated Toolkit)</i> is a hypertext game authoring tool
@@ -159,11 +159,62 @@ export default new ProjectDataCollection([
     ["Java","HTML","JavaScript"]
   ),
 
+  new ProjectData(
+      "project-dlc-raid",
+      "Dynamic Localization for RAID World War II",
+      "img/projects/diesel-engine/dlc-icon.png",
+      `
+      <div class="paragraph">
+        <p><cite>Dynamic Localization (DLC)</cite> is a mod library for <cite>RAID World War II</cite> which allows mod developers
+        to add some <cite>dynamic localization (DLC)<sup>tm</sup></cite> to their mods.<br/>
+        Instead of having to rely on static localisation (where a string ID always refers to one unchanging string,
+        potentially with one or two placeholder values (such as a keybind) filled via a predefined 'macro' from the game's data),
+        this mod also permits the use of tables and functions (supporting recursion, as long as a string is eventually returned)
+        to dynamically generate localised strings, via overriding the default localisation system.
+        </p>
+      </div>
+        
+      <div class="notice">
+        The source code (and technical documentation) for <cite>Dynamic Localization</cite> can be found on <a href="https://github.com/11BelowStudio/RAID-DynamicLocalization" target="_blank">GitHub</a>.
+        Information about the mod is also available at <a href="https://modworkshop.net/mod/52551" target="_blank">Modworkshop.net</a>.
+      </div>
+      
+      <div class="paragraph">
+      <p>I originally developed this mod for myself, as a component of a <a href="https://modworkshop.net/mod/51306" target="_blank">joke mod</a>;
+      however, I very quickly realised this functionality could be useful within other mods - but I didn't want to redundantly
+      re-override the default localisation system in every single mod with this functionality. Therefore, it made sense
+      to package this as a mod library, to be added as a dependency to other mods.</p>
+      <p>At the time of creation, however, there wasn't a functional dependency system within <cite>RAID-SuperBLT</cite>
+      (the main mod library for <cite>RAID WWII</cite>).
+      So I <a href="https://github.com/diesel-modding/RAID-SuperBLT-Lua/pull/18" target="_blank">fixed the dependency system</a>.
+      Eventually, this PR was merged, so I was able to release this mod to be used as a dependency by other mods,
+      avoiding the redundant duplication of functionality.</p>
+      </div>
+      <div class="paragraph">
+      <p>
+      Of course, the true barometer of success for software libraries is whether anyone else has taken advantage of the functionality they provide.
+      I am pleased to report that, yes, <cite>Dynamic Localization</cite> has been used by someone else!</p>
+      <p>Specifically, it is used by the <a href="https://modworkshop.net/mod/54369" target="_blank"><i>Acts of War - Intel Reducer</i></a> mod,
+      by sheri/shaw, which replaces the text stating exactly what the upcoming mission is with randomly-generated
+      vague descriptions appropriate to the mission in question - taking advantage of <cite>DLC</cite>'s format string
+      support to provide a less predictable gameplay experience.
+      </p>
+      
+      <p>I am considering trying to port <cite>Dynamic Localization</cite> to other engines as well,
+      so that even more people will have the opportunity to incorporate <cite>DLC</cite> into their work!</p>
+      </div>
+      `,
+      "#ec4c37",
+      false,
+      false,
+      ["Lua","Library"]
+  ),
+
 
   new ProjectData(
     "project-pd",
     "Payday 2 mods etc",
-    "img/projects/pd2-icon.png",
+    "img/projects/diesel-engine/pd2-icon.png",
     `
     <div class="paragraph">
       I have developed and contributed to a few mods for Payday 2, and contributed to pd2builder (a build planning tool),
