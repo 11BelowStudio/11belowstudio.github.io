@@ -2,7 +2,7 @@ import { createRouter as _createRouter, createWebHashHistory } from 'vue-router'
 
 // route-level code splitting
 const AboutView = () => import('../views/AboutPage.vue');
-const ResumeView = () => import('../views/ResumePage.vue')
+//const ResumeView = () => import('../views/ResumePage.vue')
 const GameView = () => import('../views/GameProjects.vue')
 const OtherView = () => import('../views/OtherProjects.vue')
 const ContactView = () => import('../views/ContactPage.vue')
@@ -20,7 +20,7 @@ export function createRouter(){
       {
         path: '/cv',
         name: 'CV',
-        component: ResumeView
+        component: E404View //ResumeView
       },
       {
         path: '/game-projects',

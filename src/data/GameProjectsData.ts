@@ -3,18 +3,249 @@ import ProjectDataCollection from '@/data/ProjectDataCollection';
 
 export default new ProjectDataCollection([
 
+
+  new ProjectData(
+      "baneware",
+      "BaneWare",
+      "img/projects/baneware/baneware-icon.png",
+      `
+    <div class="paragraph">
+      <p><strong>BaneWare</strong> was created for the 2026 Global Game Jam. This year's theme was "Mask", which obviously
+      lead to me producing a <cite>WarioWare</cite>-inspired homage to <cite>Plane Scene</cite> (from <cite>The Dark Knight Rises</cite>).</p>
+      <div class="center">
+       <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/crXZXmCh-u4" title="BaneWare gameplay (https://youtu.be/crXZXmCh-u4)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+     
+    <div class="paragraph">
+      <div class="notice notice-container">
+        <div class="notice-text-square">
+          <cite>BaneWare</cite> is available for free on <a href="https://11belowstudio.itch.io/baneware" target="_blank">itch.io</a>.<br/>
+          It can be played via browser (works on mobile), or downloaded for Windows and Linux.<br/>
+          Archival footage of the development process can be seen <a href="https://youtube.com/playlist?list=PL5rXQnjNhxts5ZQz5gSKq3n9ZApu4pIrx">on this playlist</a>.
+          The Global Game Jam submission page is <a href="https://globalgamejam.org/games/2026/planesceneware-7" target="_blank">here</a>.
+        </div>
+        <div class="notice-itch-square">
+          <iframe frameborder="0" src="https://itch.io/embed/4244854?linkback=true&amp;border_width=2&amp;bg_color=000000&amp;fg_color=ffffff&amp;link_color=0484d1&amp;border_color=000000" width="100%" height="169">
+          <a href="https://11belowstudio.itch.io/baneware">BaneWare by 11BelowStudio, John Hicks Composer</a>
+          </iframe>
+        </div>
+      </div>
+    </div>
+      
+    <div class="paragraph">
+      Key features:
+      <ul class="features-list">
+        <li>Bespoke <cite>WarioWare</cite>-like system for loading and playing this sequence of <cite>Plane Scene</cite>-based microgames at an ever-increasing speed</li>
+        <li>Simple and intuitive controls (just clicking the things on the screen) for microgames of varying levels of complexity.</li>
+        <li>Very hectic gameplay experience, but with a comfortable difficulty curve.</li>
+      </ul>
+    </div>
+    
+    <p>The main reason for creating this game was because, for a rather long time, I've been looking for
+    an excuse to try making a <cite>WarioWare</cite>-style game myself; this jam theme finally provided
+    the right flash of inspiration to create such a game. Furthermore, the way in which the Godot engine
+    permits structures of nested scenes was <i>very</i> useful for setting up the overall game system -
+    with individual microgames as packed scenes loaded into a 'game runner' scene (outcomes reported
+    via signals).</p>
+    
+    <!--div class="paragraph"><p>The development process of <cite>Burstworks</cite> went through several iterations of initial game ideas.
+    After a few attempts of coming up with an idea, making a barebones prototype, realising they weren't that fun,
+    and finding a better idea, the final concept hit me in a burst of inspiration from out of nowhere.
+    I made a prototype to test that idea out, found it somewhat enjoyable, and then things <i>really</i> started to come together.</p>
+    
+    <p>The only major hurdle encountered was towards the end of development - when I realised that the way in which I
+    had implemented the audio (using AudioStreams) was no longer compatible with Godot web builds as of 4.3
+    (causing a lot of very uncomfortable lag whenever an audio stream needed to be played).
+    This was a mistake on my part, so I opted to roll with the punches. I rewrote all the audio playback logic
+    to load all the audio clips as Samples on web builds (omitting the AudioStream-exclusive functionality on this platform).
+    To preserve the dynamic soundtrack, I reimplemented the functionality of Godot's <code>AudioStreamInteractive</code> class
+    via a clever use of a couple of audio player nodes loading and playing appropriate parts of the dynamic soundtrack
+    in sync with each other (and in response to game events), preserving the seamless playback of this dynamic soundtrack
+    with full feature parity with the implementation present in the downloadable version of the game.</p-->
+    
+    <p>
+    John Hicks composed the original soundtrack for this game (besides the kazoo bits, those were all me), Christine made
+    some of the art/3D models, Elaijah produced an implementation of a microgame which didn't ultimately make it into the final
+    product (time constraints), whilst I was responsible for pretty much everything else (voice acting, concepts, implementation, marketing, etc).
+    (<cite>Plane Scene</cite> (along with the rest of <cite>The Dark Knight Rises</cite>) was directed by Christopher Nolan.
+    The <cite>WarioWare</cite> series was produced by Nintendo and Intelligent Systems.)
+    </p>
+    </div>
+    
+      `,
+      "#880a3f",
+      false,
+      false,
+      ["Godot","PC","game jam","gdscript","arcade","action"]
+  ),
+
+  new ProjectData(
+      "boss",
+      "BOSS",
+      "img/projects/boss/boss-title.gif",
+      `
+    <div class="paragraph">
+      <p><strong>BOSS</strong> is a game I made in Godot (for PC) for the <a href="https://itch.io/jam/sbigjam2025" target="_blank"><i>So Bad It's Good Jam 2025</i></a>, with the modifier of <i>Genre Fakeout</i>.<br/>
+      <a href="https://itch.io/jam/sbigjam2025/rate/3785997" target="_blank">This entry</a> came in 7th place overall out of 61 entries, but came in first place in the 'modifier' category.</p>
+      
+      <p>Due to the aforementioned genre fakeout being a core component of <cite>BOSS</cite>,
+      I would <strong>strongly</strong> suggest playing the game yourself before reading any further,
+      lest you ruin the experience for yourself.</p>
+    </div>
+
+    <div class="paragraph">
+      <div class="notice notice-container">
+        <div class="notice-text-square">
+          <cite>BOSS</cite> is available to download for free on <a href="https://11belowstudio.itch.io/boss" target="_blank">itch.io</a>,
+          playable on Windows and Linux.<br/>
+          Some archival footage of the development process can be seen <a href="https://www.youtube.com/playlist?list=PL5rXQnjNhxtsSamZA8YdrQC2Nm-liQvq8">on this playlist</a>.
+        </div>
+        <div class="notice-itch-square">
+          <iframe frameborder="0" src="https://itch.io/embed/3785997?linkback=true&amp;border_width=2&amp;bg_color=000000&amp;fg_color=ffffff&amp;link_color=ff5f5f&amp;border_color=000000" width="100%" height="169">
+          <a href="https://11belowstudio.itch.io/boss">BOSS by 11BelowStudio, Louise Nobue, DELTA100, Virety Rammithel</a>
+          </iframe>
+        </div>
+      </div>
+    </div>
+    
+    <div class="paragraph">
+      <p>Spoilers below. You have been warned.</p>
+    </div>
+
+    <div class="paragraph">
+      Main features:
+      <ul class="features-list">
+        <li>Totally ordinary 2d top-down adventure game system.</li>
+        <li>Bespoke scene management solution to handle absolutely nothing untoward happening later on.</li>
+        <li>Completely devoid of AI slop 🙂</li>
+      </ul>
+    </div>
+
+    <div class="paragraph center">
+      <img class="pc-screenshot" src="img/projects/boss/boss-whoops.png" alt="Wait that's not meant to happen" />
+      <img class="pc-screenshot" src="img/projects/boss/boss-monitor.png" alt="Oh." />
+      <img class="pc-screenshot" src="img/projects/boss/boss-incoming.png" alt="OH NO." />
+      <img class="pc-screenshot" src="img/projects/boss/boss-hmm.png" alt="hmm." />
+    </div>
+
+    <div class="paragraph">
+    <p><cite>BOSS</cite> was inspired by a particularly wild experience I had during a hospital procedure,
+    and I sought to share that genuinely terrifying existential dread-inducing experience with others.<br/>
+    I lied. This is not a 2d top-down adventure game. It presents as a (rather shoddy) one at first,
+    before putting you into an unbeatable boss fight. The player will lose, the game will appear to crash...<br/>
+    The phone rings. The Boss wishes to speak to you. You leave your desk. The experience truly begins.</p>
+    
+    <p>The gameplay is ultimately very similar to <cite>Flypost</cite>; trying to evade an undefeatable foe, but
+    now with a side of existential dread, better-signposted level design, and horrors beyond human comprehension.<br/>
+    The game itself is rather short - but, given the tight deadline of the game jam, and the fact that it consists of
+    two distinct game systems in a single package to contribute to the overall gesamptkunstwerk, I'm still rather
+    proud of what I managed to make.</p>
+    </div>
+    
+    <div class="paragraph">
+      Key features:
+      <ul class="features-list">
+        <li>Very bespoke high-level game management solution to smoothly handle the transition between the two game systems</li>
+        <li>Enemy logic provides a tough but fair challenge, contributing to a sense of overall unease and fear without resorting to full-on jumpscares</li>
+        <li>Still completely devoid of AI slop 🙂</li>
+      </ul>
+    </div>
+    
+    <div class="paragraph">
+    <p>I was the primary designer and developer of <cite>BOSS</cite>, and was responsible for coordinating
+    the collective development effort of the wider team. Credit where credit is due; my brother made the 3D models (besides the Boss) and 2D sprites,
+    Virety was the sole voice actor, Louise Nobue created bespoke background music, and a friend who asked to
+    remain anonymous drew the title screen art/key art. I did pretty much everything else (barring some stock audio/premade systems).</p>
+    </div>
+    `,
+      "#573f1c",
+      false,
+      false,
+      ["Godot","PC","game jam","gdscript","horror"]
+  ),
+
+  new ProjectData(
+      "burstworks",
+      "Burstworks",
+      "img/projects/burstworks/icon.png",
+      `
+    <div class="paragraph">
+      <p><strong>Burstworks</strong> was created for the 2025 Global Game Jam, the theme which being "bubble" - naturally
+      leading to the creation of a puzzle/action game about propelling a barrel through a vaguely industrial series of obstacles via the use of exploding bubbles.</p>
+      
+      <p>No idea what any of that means? Go watch the <a href="https://www.youtube.com/watch?v=dccWVhCVGuU">trailer</a>, it'll make things easier to understand.</p>
+      <div class="center">
+       <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/dccWVhCVGuU" title="Burstworks trailer (https://youtu.be/dccWVhCVGuU)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+     
+    <div class="paragraph">
+      <div class="notice notice-container">
+        <div class="notice-text-square">
+          <cite>Burstworks</cite> is available for free on <a href="https://11belowstudio.itch.io/burstworks" target="_blank">itch.io</a>.<br/>
+          It can be played via browser, or downloaded for Windows and Linux.<br/>
+          Archival footage of the development process can be seen <a href="https://youtube.com/playlist?list=PL5rXQnjNhxts5ZQz5gSKq3n9ZApu4pIrx">on this playlist</a>.
+          The Global Game Jam submission page is <a href="https://globalgamejam.org/games/2025/burstworks-5" target="_blank">here</a>.
+        </div>
+        <div class="notice-itch-square">
+          <iframe frameborder="0" src="https://itch.io/embed/3273783?linkback=true&amp;border_width=2&amp;bg_color=000000&amp;fg_color=ffffff&amp;link_color=0484d1&amp;border_color=000000" width="100%" height="169">
+          <a href="https://11belowstudio.itch.io/burstworks">Burstworks by 11BelowStudio, DELTA100, John Hicks Composer</a>
+          </iframe>
+        </div>
+      </div>
+    </div>
+      
+    <div class="paragraph">
+      Key features:
+      <ul class="features-list">
+        <li>Unique physics-driven puzzle/action combo, involving building and then running contraptions.</li>
+        <li>Dynamic soundtrack, with a bespoke streamless implementation in order for it to work correctly on the web build.</li>
+        <li>Effective tutorialization of an unconventional game system.</li>
+      </ul>
+    </div>
+    
+    <div class="paragraph"><p>The development process of <cite>Burstworks</cite> went through several iterations of initial game ideas.
+    After a few attempts of coming up with an idea, making a barebones prototype, realising they weren't that fun,
+    and finding a better idea, the final concept hit me in a burst of inspiration from out of nowhere.
+    I made a prototype to test that idea out, found it somewhat enjoyable, and then things <i>really</i> started to come together.</p>
+    
+    <p>The only major hurdle encountered was towards the end of development - when I realised that the way in which I
+    had implemented the audio (using AudioStreams) was no longer compatible with Godot web builds as of 4.3
+    (causing a lot of very uncomfortable lag whenever an audio stream needed to be played).
+    This was a mistake on my part, so I opted to roll with the punches. I rewrote all the audio playback logic
+    to load all the audio clips as Samples on web builds (omitting the AudioStream-exclusive functionality on this platform).
+    To preserve the dynamic soundtrack, I reimplemented the functionality of Godot's <code>AudioStreamInteractive</code> class
+    via a clever use of a couple of audio player nodes loading and playing appropriate parts of the dynamic soundtrack
+    in sync with each other (and in response to game events), preserving the seamless playback of this dynamic soundtrack
+    with full feature parity with the implementation present in the downloadable version of the game.</p>
+    
+    <p>
+    My brother handled the 3D modelling/2D art, along with most of the level design, whilst John Hicks provided voice acting and composed a bespoke soundtrack.
+    I was responsible for pretty much everything else, from the initial designs, to the implementation of the game, and production of the trailer.
+    (The trailer/level 0 introduction sequence was loosely inspired by <cite>Jackass</cite>.)
+    </p>
+    </div>
+    
+      `,
+      "#024771",
+      false,
+      false,
+      ["Godot","PC","game jam","gdscript","puzzle","action"]
+  ),
+
   new ProjectData(
     "flypost",
     "Flypost",
-    "img/projects/flypost-icon.gif",
+    "img/projects/flypost/flypost-icon.gif",
     `
     <div class="paragraph">
       <p><strong>Flypost</strong> is a game I made in Godot (for PC and web) for the <a href="https://itch.io/jam/sbigjam2024" target="_blank"><i>So Bad It's Good Jam 2024</i></a>, with the theme of <i>Excessive Sound Design</i>.<br/>
       This was also my first time using Godot for anything, and I think it went rather well. <a href="https://itch.io/jam/sbigjam2024/rate/2816729" target="_blank">This entry</a> came in 7th place overall in the jam (out of 86 entries) - doubleplusgood!</p>
       
-      <p>As the name implies, it's about flyposting (the act of putting up stickers outside) - albeit with a hefty dose of 1984-inspired dystopian goodthinkfulness.
+      <p>As the name implies, it's about flyposting (the act of putting up stickers without permission) - albeit with a hefty dose of 1984-inspired dystopian goodthinkfulness.
       It was loosely inspired by some flyposting I noticed due to the general election (which happened on the same week as the jam),
-      and an overall aim of wanting the player to feel overimmersed to the point of sensory overload.</p>
+      and an overall aim of wanting the player to feel over-immersed to the point of sensory overload.</p>
     </div>
 
     <div class="paragraph">
@@ -78,14 +309,13 @@ export default new ProjectDataCollection([
   new ProjectData(
     "feathersword",
     "Feathersword's Revenge",
-    "img/projects/feathersword-icon.gif",
+    "img/projects/feathersword/feathersword-icon.gif",
     `
     <div class="paragraph">
       <strong>Feathersword's Revenge</strong>
       be a swashbucklin', rib-ticklin', physics-'avin game for PC, created wit' Unity.<br/>
       This game was made for the <a href="https://globalgamejam.org/games/2024/feathersword-1" target="_blank"><em>2024 Global Game Jam</em></a> (January 2024)
-      - the theme of which being <em>Make Me Laugh</em> - 
-      natually leading to the development of a game in which you make
+      - the theme of which being <em>Make Me Laugh</em> - naturally leading to the development of a game in which you make
       people laugh by <span class="reveal"><span class="opposite-hide"><em>TICKLING</em> them</span><span class="hide">bashing them over the head</span></span> with a
       comically large feather, whilst not getting <span class="reveal"><span class="opposite-hide"><em>TICKLED</em></span><span class="hide">bashed over the head</span></span> yourself.<br/>
       I worked on this with a team of five other people on the <a href="https://www.gamedev.london/" target="_blank">Game Dev London</a> discord server
@@ -182,13 +412,13 @@ export default new ProjectDataCollection([
   new ProjectData(
     "committy",
     "Committy",
-    "img/projects/committy.png",
+    "img/projects/committy/committy-square.svg",
     `
     <div class="paragraph">
-      <strong>Committy</strong> is a live service travesty of a card game, implemented using Node.js,
+      <strong>Committy</strong> was a live service travesty of a card game, implemented using Node.js,
       produced for the <a href="https://itch.io/jam/sbigjam2023" target="_blank"><em>'So Bad It's Good' Jam 2023</em></a> (August 2023).
       <br/>The theme for the jam this year was <cite>Every Suggestion Combined</cite>,
-      so I decided to take the theme in a completely tangental direction,
+      so I decided to take the theme in a completely tangential direction,
       by creating a simple card game intended to be the <i>sum of everyone's suggestions</i> in card game form.
       In other words - every single card is a user contribution, and the interactions between them are determined via precedent,
       whilst going for an overall feeling of being 'designed by committee' (hence the name).
@@ -197,13 +427,13 @@ export default new ProjectDataCollection([
     <div class="paragraph">
       <div class="notice notice-container">
         <div class="notice-text-square">
-          <cite>Committy</cite> is playable via browser, on <a href="https://committy.glitch.me" target="_blank">glitch.me</a>.<br/>
-          Source code is available on <a href="https://github.com/11BelowStudio/sbig2023-committy" target="_blank">GitHub</a>.<br/>
+          <cite>Committy</cite> is, unfortunately, no longer playable, due to a lack of a host server (as is tradition for live services).<br/>
+          Source code is available on <a href="https://github.com/11BelowStudio/sbig2023-committy" target="_blank">GitHub</a>, for any who may wish to revive it.<br/>
           The jam submission page for <cite>Committy</cite> can be seen <a href="https://itch.io/jam/sbigjam2023/rate/2204456" target="_blank">here</a>.
         </div>
         <div class="notice-itch-square">
           <iframe frameborder="0" src="https://itch.io/embed/2204456?linkback=true&amp;dark=true" width="100%" height="167">
-            <a href="https://11belowstudio.itch.io/committy" target="_blank">Committy! by 11BelowStudio</a>
+            <a href="https://11belowstudio.itch.io/committy" target="_blank">Committy! by 11BelowStudio, DELTA100</a>
           </iframe>
         </div>
       </div>
@@ -228,7 +458,7 @@ export default new ProjectDataCollection([
     <div class="paragraph">
       <cite>Committy</cite> had a mildly eventful development cycle. Due to family reasons (omitted here),
       I knew that I wouldn't have as much time to work on the game as I would have wanted, so I had to keep the scope
-      somewhat restrained (leading to the tangental interpretation of <cite>Every Suggestion Combined</cite>,
+      somewhat restrained (leading to the tangential interpretation of <cite>Every Suggestion Combined</cite>,
       in the form of a game which would appear to have been 'designed by committee' - hence the name).
       <br/>The core ideas of 'user-created cards', 'players must select the objectively superior card',
       and 'a third party must be the ultimate arbitrator of what qualifies as "objectively superior"'
@@ -242,8 +472,8 @@ export default new ProjectDataCollection([
     <div class="paragraph">
       Overall, I'm rather unsatisfied with the final state of <cite>Committy</cite>.
       Several planned features (such as online multiplayer) ended up on the cutting room floor (time constraints),
-      the intended feeling of being 'designed by committee' was not fully realized,
-      and the overall concept was rather mediocre overall.
+      the intended feeling of being 'designed by committee' was not fully realised,
+      and the overall concept was rather mediocre.
       Sure, it was my first ever attempt at using Node.js, and it did have a <i>very</i> rushed development cycle,
       so it could have gone worse - but it could have gone much better.
     </div>
@@ -257,7 +487,7 @@ export default new ProjectDataCollection([
   new ProjectData(
     "crabfight",
     "CrabFight (CLAWS)",
-    "img/projects/crabfight-icon.png",
+    "img/projects/crabfight/crabfight-icon.png",
     `
     <div class="paragraph">
       <strong>CrabFight</strong> is a cross-platform online multiplayer crab simulator for Windows, Linux, and Android (developed using Unity).
@@ -336,7 +566,7 @@ export default new ProjectDataCollection([
   new ProjectData(
     "crabfind",
     "CrabFind",
-    "img/projects/crabfind-icon.png",
+    "img/projects/crabfind/crabfind-icon.png",
     `
     <div class="paragraph">
       <strong>CrabFind</strong> is a cross-platform multiplayer edutainment game for Windows, Linux, and Android (developed in Unity).
@@ -385,7 +615,7 @@ export default new ProjectDataCollection([
       and make them more traversable without completely mangling the meshes beyond all recognition.<br/>
       For the artefacts - I was granted permission to use the
       <a href="https://www.imuseum.im/hms-racehorse/" target="_blank">Isle of Man Museum collection</a> - however,
-      these are all 2D photographs. In order to make them work in the 3D environments,
+      these are all 2D photographs. To make them work in the 3D environments,
       I opted to improvise by using billboarding - which also helped to make them stand out in the environments.<br/>
       Finally, the overarching development cycle - Whilst I did have <cite>CrabFight</cite>
       as a basis (meaning that I didn't need to rewrite the whole main menu and backend-y multiplayer management components),
@@ -402,7 +632,7 @@ export default new ProjectDataCollection([
   new ProjectData(
     "kevin-tortoise",
     "One Unspecified Period Of Time At Kevin's",
-    "img/projects/kevin-icon.png",
+    "img/projects/kevin-tortoise/kevin-icon.png",
     `
     <div class="paragraph">
       <strong>One Unspecified Period Of Time At Kevin's Contrived Plot Device Of A Tortoise Sanctuary (Very Scary!)</strong>
@@ -487,7 +717,7 @@ export default new ProjectDataCollection([
   new ProjectData(
     "spacetow",
     "A Scientific Interpretation of Daily Life in the Space Towing Industry (Circa 3052 CE)",
-    "img/projects/spacetow-icon.gif",
+    "img/projects/spacetow/spacetow-icon.gif",
     `
     <div class="paragraph">
       <strong>A Scientific Interpretation of Daily Life in the Space Towing Industry (Circa 3052 CE)</strong> is a relatively simple
@@ -523,7 +753,7 @@ export default new ProjectDataCollection([
     </div>
 
     <div class="paragraph center">
-      <img class="pc-screenshot" src="/img/projects/spacetow-icon.gif" alt="Ordinary physics moment" />
+      <img class="pc-screenshot" src="/img/projects/spacetow/spacetow-icon.gif" alt="Ordinary physics moment" />
     </div>
 
     <div class="paragraph">

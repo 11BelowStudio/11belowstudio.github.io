@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <!--div>
     <h1>CV</h1>
 
     <div class="paragraph">
@@ -14,27 +14,9 @@
         Prize-winning graduate, with a track record of successfully delivering bespoke games for external clients, seeking an opportunity to apply my skills and experience in the games industry.
       I treat games as works of art, and I endeavour to fulfil the artistic vision of the designer to the best of my ability.
       </p>
-      
-      <!---
-      I'm <strong>Rachel Lowe</strong>, a prize-winning Computer Games MSc graduate, currently looking to apply my skills and experience to the games industry.
-      <br/>I have experience designing and developing single-player and multi-player games, for desktop and mobile, both individually and as part of a team.
-      <br/>I have recently been employed to develop bespoke videogames for Natural England and the Isle of Man Museum.
-      <br/>I treat games as works of art; and I endeavour to fulfil the artistic vision of the designer to the best of my ability.
-      <br/>
-      <br/>Currently, I'm trying to find a job, either in a design role or a development role.
-      <br/>If you have any opportunities which you think I'd be a good fit for, feel free to <router-link to="/contact">contact me</router-link>.
-      -->
-      <!-- <br/>
-      <br/>Besides games, I'm passionate about -->
 
       
     </div>
-    <!--
-    <div class="photo" style="margin-top:0px;">
-      <img :src="`/img/resume-image-occultoctoling.png`" alt="Rachel" />
-      <p><a href="https://picrew.me/en/image_maker/1759442" target="_blank">Art</a> by <a href="https://picrew.me/en/search/creator?crid=2167697" target="_blank">@occultoctoling</a></p>
-    </div>
-    -->
 
     <div style="clear:both"></div>
 
@@ -89,30 +71,7 @@
 
       <div class="tech-stack">Unity, C#, git, multiplayer, multi-platform</div>
 
-      <!--
-      <h2>Work experience</h2>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2018-2019</h4>
-
-      <div>It's classified so I can't speak about it.</div>
-
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
-
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2015-2017</h4>
-
-      <div>It's classified so I can't speak about it.</div>
-
-      <div class="tech-stack">Even more Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
-
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2012-2015</h4>
-
-      <div>It's classified so I can't speak about it.</div>
-
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
-      -->
 
       <h2 id="Skills">Skills</h2>
 
@@ -142,33 +101,6 @@
         <div class="skill">Jira</div>
       </div>
 
-      <!--
-      <div class="skill-set">
-        <h3>Others</h3>
-        <div class="skill">C#</div>
-      </div>
-      -->
-
-      <!-- template placeholder moment
-      <div class="skill-set">
-        <h3>Lethal</h3>
-        <SkillRate name="Handguns" :rate="5" />
-        <SkillRate name="Rifles" :rate="5" />
-        <SkillRate name="Shotguns" :rate="5" />
-        <SkillRate name="Machineguns" :rate="5" />
-        <SkillRate name="Missile launchers" :rate="5" />
-        <SkillRate name="Knives" :rate="5" />
-        <SkillRate name="Hand to hand combat" :rate="5" />
-      </div>
-
-      <div class="skill-set">
-        <h3>Non-lethal</h3>
-        <SkillRate name="Sneaking" :rate="1" />
-        <SkillRate name="Negotiation" :rate="1" />
-        <SkillRate name="Seduction" :rate="1" />
-        <SkillRate name="Sense of humor" :rate="2" />
-      </div>
-      -->
 
       <div style="clear:both"> </div>
 
@@ -181,15 +113,6 @@
           Overall result: 84%. <b>Distinction.</b><br/>
           - Awarded the Big Essex Platinum Award for volunteering contributions during my degrees.
         </p>
-        <!--div class="tech-stack">Game Artificial Intelligence (92%),
-          Physics-Based Games (96%),
-          Game Design (85%),
-          Group Project (Incorporating a Game Jam) (81%),
-          Mobile and Social Application Programming (76%),
-          Professional Practice and Research Methodology (84%),
-          Machine Learning (93%),
-          Data Science and Decision Making (76%),
-          MSc Project and Dissertation (82%).</div-->
       </div>
 
       <h3>University of Essex - BSc Computer Games</h3>
@@ -239,18 +162,6 @@
 
       <h2 id="Other">And another thing...</h2>
 
-      <!-- template placeholder moment
-      <h2>Languages</h2>
-
-      <h3>American</h3>
-      <div>Basic knowledge but I know lots of one-liners</div>
-
-      <h3>That's it</h3>
-      <div>Who needs another language when you speak American?</div>
-      
-      <h2>Besides...</h2>
-      -->
-
       
       <div>
         <h3>I ❤️ Games</h3>
@@ -279,26 +190,11 @@
           I find the end result of solving these problems to be rather satisfying.
         </div>
 
-        <!--
 
-        <h3>I 💚 Theme Parks</h3>
-        <div>
-          Does this have anything to do with getting into the games industry? Good question!<br/>
-          However, I've always been a fan of theme parks, visiting them, and researching how they
-          work behind the curtain to deliver the 'magic' that they do.<br/>
-          Chalk it up to being an autistic kid growing up somewhat near a couple of theme parks, I guess.<br/>
-          However, it has been a bit of an inspiration in my endeavours towards delivering interesting experiences
-          through my games.
-        </div>
-
-        <h3>I 💙 placeholder</h3>
-
-        <h3>I 💜 placeholder</h3>
-        -->
 
       </div>
     </div>
-  </div>
+  </div-->
 </template>
 
 <script lang="ts">
